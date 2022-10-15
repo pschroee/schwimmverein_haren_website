@@ -1,0 +1,25 @@
+---
+import { NavItems } from "../types"
+export interface Props {
+  items: NavItems
+}
+
+const { items } = Astro.props as Props
+---
+
+<div class="grid grid-cols-1 gap-2 lg:grid-cols-2 md:gap-4">
+  {
+    items.map((item) => (
+      <a
+        href={item.href}
+        class="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+        rel={item?.external ? "noreferrer noopener" : ""}
+        target={item?.external ? "_blank" : "_self"}
+      >
+        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          {item.title}
+        </h5>
+      </a>
+    ))
+  }
+</div>

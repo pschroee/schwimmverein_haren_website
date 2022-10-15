@@ -1,0 +1,19 @@
+---
+const title = "Breitensport"
+
+let pathname = new URL(Astro.request.url).pathname
+if (pathname[pathname.length - 1] != "/") {
+  pathname = pathname + "/"
+}
+import Layout from "../../layouts/Layout.astro"
+import { NAVITEMS } from "../../config"
+import OverviewCards from "../../components/OverviewCards.astro"
+const navItem = NAVITEMS.find((item) => item.href == pathname)
+---
+
+<Layout title={title} breadcrumb={[{ title }]}>
+  <section class="flex flex-col max-w-screen-lg mx-auto">
+    <h1 class="mb-4 text-4xl font-bold">{title}</h1>
+    <OverviewCards items={navItem.subnav} />
+  </section>
+</Layout>

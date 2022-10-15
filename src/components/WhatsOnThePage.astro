@@ -1,0 +1,75 @@
+---
+export interface Props {
+  headings: { title: string; href: string }[]
+}
+
+const { headings } = Astro.props as Props
+---
+
+{
+  headings?.length > 1 && (
+    <div class="relative inset-x-0 w-full mx-auto mb-4 md:my-6 md:hidden">
+      <button
+        id="whatsonthepageButton"
+        data-dropdown-toggle="whatsonthepage"
+        class="mx-auto not-format w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
+        type="button"
+      >
+        <span class="block mr-auto">Seiteninhalt</span>
+        <svg
+          class="w-4 h-4 ml-2"
+          aria-hidden="true"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </button>
+
+      <div
+        id="whatsonthepage"
+        class="z-10 hidden w-full divide-y divide-gray-200 rounded shadow bg-gray-50 not-format"
+      >
+        <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+          <div class="text-lg font-medium">{headings[0].title}</div>
+        </div>
+        <ul
+          class="py-1 text-sm text-gray-700"
+          aria-labelledby="whatsonthepageButton"
+        >
+          {headings.slice(1).map((item) => (
+            <li>
+              <a href={item.href} class="block px-4 py-2 hover:bg-gray-200">
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  )
+}
+
+<script>
+  // set the dropdown menu element
+  const targetEl = document.getElementById("whatsonthepage")
+
+  // set the element that trigger the dropdown menu on click
+  const triggerEl = document.getElementById("whatsonthepageButton")
+
+  const Dropdown = (await import("flowbite/src/components/dropdown")).default
+
+  const dropdown = new Dropdown(targetEl, triggerEl)
+
+  const whatsonthepage = document.querySelector("#whatsonthepage")
+  whatsonthepage.addEventListener("click", () => {
+    dropdown.hide()
+  })
+</script>

@@ -1,0 +1,16 @@
+---
+title: "1. Mannschaft"
+layout: "../../layouts/MarkdownLayout.astro"
+breadcrumb:
+  - title: "Breitensport"
+    href: "/breitensport/"
+  - title: "1. Mannschaft"
+---
+
+Die erste Mannschaft im Schwimmverein Haren ist klar leistungsorientiert und trainiert 5x pro Woche für die Teilnahme an Wettkämpfen.
+
+Der erfolgreiche Kurs der Vergangenheit wird fortgeführt, unsere Schwimmerinnen und Schwimmer haben Erfolg auf Landesebene.
+
+Die Trainingsinhalte der ersten Mannschaft lassen sich als „Aufbautraining" und „Anschlusstraining" bezeichnen. Die besonderen Talente unserer Mannschaft trainieren außerdem 1x pro Woche am Stützpunkt in Meppen (Talentnest).
+
+3x Training pro Woche erwaten wir von jedem Schwimmer als minimalen Trainingseinsatz.

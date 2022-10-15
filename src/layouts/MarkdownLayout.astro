@@ -1,0 +1,75 @@
+---
+import flowbite from "flowbite/dist/flowbite?url"
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+import BaseHead from "../components/Head/BaseHead.astro"
+import WhatsOnThePage from "../components/WhatsOnThePage.astro"
+import { IBreadcrumbSingle } from "../components/Breadcrumb.astro"
+import Scripts from "../components/Scripts.astro"
+
+export type Props = {
+  title: string
+  breadcrumb?: IBreadcrumbSingle[]
+}
+
+const { title, breadcrumb } = Astro.props.frontmatter || (Astro.props as Props)
+let markdownHeadings = Astro.props.headings
+  .filter((item) => item.depth == 2 && item.slug != "")
+  .map((item: { slug: string; text: string }) => {
+    return { title: item.text, href: `#${item.slug}` }
+  })
+markdownHeadings = [{ title, href: "" }, ...markdownHeadings]
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-behavior">
+  <BaseHead title={title} />
+  <body class="flex flex-col min-h-screen">
+    <Header
+      breadcrumb={breadcrumb}
+      class="px-4 sm:px-6 md:px-4 lg:px-2 xl:px-0"
+    />
+    <main class="px-6 py-6 md:py-8 sm:px-8 md:px-10 xl:px-0">
+      <article
+        class="max-w-screen-lg mx-auto format lg:format-lg format-sm sm:format-base flex"
+      >
+        <div>
+          <WhatsOnThePage headings={markdownHeadings} />
+          <h1>{title}</h1>
+          <slot />
+        </div>
+        <div></div>
+      </article>
+    </main>
+
+    <Footer />
+    <Scripts />
+
+    <style is:global>
+      html {
+        scroll-behavior: smooth;
+      }
+      /*TODO: Scroll Margins nochmal genau anpassen */
+      main article h2 {
+        scroll-margin-top: 3em;
+      }
+      main article a {
+        /* These are technically the same, but use both */
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+    </style>
+  </body>
+</html>
