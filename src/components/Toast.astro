@@ -15,12 +15,12 @@ const { title, body, href } = Astro.props as Props
       href={href}
     >
       <div class="text-sm font-bold">{title}</div>
-      <div class="ml-3 text-sm font-normal">{body}</div>
+      <div class="ml-3 text-sm font-normal whitespace-pre-wrap">{body}</div>
     </a>
   ) : (
     <div class="flex items-center p-4 w-full max-w-screen-lg text-gray-500 bg-white rounded-lg shadow">
       <div class="text-sm font-bold">{title}</div>
-      <div class="ml-3 text-sm font-normal">{body}</div>
+      <div class="ml-3 text-sm font-normal whitespace-pre-wrap">{body}</div>
     </div>
   )
 }
