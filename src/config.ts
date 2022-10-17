@@ -1,4 +1,9 @@
-import { NavItems, SocialLinks } from "./types"
+import { NavItems, SocialLinks, SingleInternalNews } from "./types"
+import internalNewsJson from "./data/internalNews.json"
+
+export const internalNews: SingleInternalNews[] = internalNewsJson.news.filter(
+  (item) => item.active
+)
 
 export const NAVITEMS: NavItems = [
   { title: "Home", href: "/" },

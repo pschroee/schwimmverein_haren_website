@@ -11,3 +11,10 @@ export type SocialLinks = {
   facebook: string
   instagram: string
 }
+
+export type SingleInternalNews = {
+  active: boolean
+  title: string
+  body: string
+  href?: string
+}
