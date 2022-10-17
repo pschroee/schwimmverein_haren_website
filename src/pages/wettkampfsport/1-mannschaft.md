@@ -6,8 +6,6 @@ breadcrumb:
     href: /breitensport/
   - title: 1. Mannschaft
 ---
-h﻿egfhkjdehfl ejhfkerhk
-
 Die erste Mannschaft im Schwimmverein Haren ist klar leistungsorientiert und trainiert 5x pro Woche für die Teilnahme an Wettkämpfen.
 
 Der erfolgreiche Kurs der Vergangenheit wird fortgeführt, unsere Schwimmerinnen und Schwimmer haben Erfolg auf Landesebene.
