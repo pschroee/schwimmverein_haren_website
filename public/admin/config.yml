@@ -28,6 +28,10 @@ collections:
         label: "Website News"
         file: "src/data/internalNews.json"
         fields:
-          - { label: Titel, name: title, widget: string }
-          - { label: Inhalt, name: body, widget: text }
-          - { label: Link, name: href, widget: string, required: false }
+          - label: "News"
+            name: "news"
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Inhalt, name: body, widget: text }
+              - { label: Link, name: href, widget: string, required: false }
