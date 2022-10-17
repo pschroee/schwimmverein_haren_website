@@ -7,10 +7,16 @@
       "href": ""
     },
     {
-      "active": true,
+      "active": false,
       "title": "Google",
       "body": "Google hat neue News. Wenn du hier drauf klickst, öffnest du Google!",
       "href": "https://google.de"
+    },
+    {
+      "active": true,
+      "title": "Trainingsausfall",
+      "body": "Am kommenden Montag den 45. Dezember 4444 fällt das Schwimmtraining aus!",
+      "href": "https://schwimmverein-haren.de/index.php?id=105"
     }
   ]
 }
