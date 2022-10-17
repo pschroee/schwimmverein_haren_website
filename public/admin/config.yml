@@ -35,3 +35,9 @@ collections:
               - { label: Titel, name: title, widget: string }
               - { label: Inhalt, name: body, widget: text }
               - { label: Link, name: href, widget: string, required: false }
+              - {
+                  label: "Aktiv",
+                  name: "active",
+                  widget: "boolean",
+                  default: true,
+                }
