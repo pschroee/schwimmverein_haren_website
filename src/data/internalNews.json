@@ -28,6 +28,11 @@
       "title": "Trainingstermine",
       "body": "Es gibt neue Trainingstermine",
       "href": "https://schwimmverein-haren.de/index.php?id=105"
+    },
+    {
+      "active": true,
+      "title": "Anfängerschwimmen Warteliste",
+      "body": "Aufgrund von Corona ist unsere Warteliste für das Anfängerschwimmen sehr groß "
     }
   ]
 }
