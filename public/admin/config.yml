@@ -21,10 +21,12 @@ collections:
         }
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Inhalt", name: "body", widget: "markdown" }
-  - name: "news-internal"
-    label: "Neuigkeiten Webseite"
+  - name: "news"
+    label: "News"
     files:
-      - file: "src/data/internalNews.json"
+      - name: "news-website"
+        label: "Website News"
+        file: "src/data/internalNews.json"
         fields:
           - { label: Titel, name: title, widget: string }
           - { label: Inhalt, name: body, widget: text }
