@@ -29,7 +29,7 @@ collections:
         file: "src/data/internalNews.json"
         fields:
           - label: "News"
-            name: "news"
+            name: "News"
             widget: "list"
             fields:
               - { label: Titel, name: title, widget: string }
