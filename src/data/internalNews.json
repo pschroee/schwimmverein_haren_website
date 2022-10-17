@@ -26,7 +26,8 @@
     {
       "active": true,
       "title": "Trainingstermine",
-      "body": "Es gibt neue trainingstermine https://schwimmverein-haren.de/index.php?id=105"
+      "body": "Es gibt neue Trainingstermine",
+      "href": "https://schwimmverein-haren.de/index.php?id=105"
     }
   ]
 }
