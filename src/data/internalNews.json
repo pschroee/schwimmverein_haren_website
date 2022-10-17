@@ -4,6 +4,12 @@
       "active": true,
       "title": "24h Schwimmen 2022",
       "body": "Es ist wieder soweit! Das 24h Schwimmen findet dieses Jahr wieder am 16./17. Dezember 2022 statt.",
+      "href": ""
+    },
+    {
+      "active": true,
+      "title": "Google",
+      "body": "Google hat neue News. Wenn du hier drauf klickst, öffnest du Google!",
       "href": "https://google.de"
     }
   ]
