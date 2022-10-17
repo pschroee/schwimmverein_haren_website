@@ -1,9 +1,23 @@
 ---
+import ImageCard from "../components/ImageCard.astro"
+import Toast from "../components/Toast.astro"
 import Layout from "../layouts/Layout.astro"
-import { IBreadcrumbSingle } from "../components/Breadcrumb.astro"
 ---
 
 <Layout title="Home" showBanner>
+  <section
+    class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
+  >
+    <Toast
+      title="24h Schwimmen 2020"
+      body="Es ist wieder soweit! Das 24h Schwimmen findet dieses Jahr wieder am 16./17. Dezember 2022 statt."
+    />
+    <Toast
+      title="24h Schwimmen 2020"
+      body="Es ist wieder soweit! Das 24h Schwimmen findet dieses Jahr wieder am 16./17. Dezember 2022 statt."
+      href="https://google.de"
+    />
+  </section>
   <section
     class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-12"
   >
