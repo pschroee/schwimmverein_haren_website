@@ -1,7 +1,7 @@
 ---
 import Toast from "../components/Toast.astro"
 import Layout from "../layouts/Layout.astro"
-import { internalNews } from "../config"
+import { internalNews, sidebarItems } from "../config"
 import { getPosts } from "../lib/facebook"
 import SingleNewsCard from "../components/SingleNewsCard.astro"
 const posts = await getPosts()
@@ -12,20 +12,27 @@ const posts = await getPosts()
     slot="sidebar"
     class="col-start-2 xl:col-start-3 flex flex-wrap justify-center gap-8 xl:justify-start xl:flex-col xl:items-center px-6 pb-6 md:pb-8 xl:py-8 sm:px-8 md:px-10 lg:px-2"
   >
-    <a href="https://google.de" class="">
-      <img
-        class="w-28 xl:w-32 h-auto"
-        src="/images/uploads/badges/schwimmgut_logo.png"
-        alt="Schwimmgut Logo"
-      />
-    </a>
-    <a href="https://google.de" class="">
-      <img
-        class="w-28 xl:w-32 h-auto"
-        src="/images/uploads/badges/mitgliedschaft.png"
-        alt="Schwimmgut Logo"
-      />
-    </a>
+    {
+      sidebarItems.map((item) =>
+        item.external ? (
+          <a href={item.href} rel="noopener nofollow" target="_blank">
+            <img
+              class="w-28 xl:w-32 h-auto"
+              src={item.image}
+              alt={item.title}
+            />
+          </a>
+        ) : (
+          <a href={item.href}>
+            <img
+              class="w-28 xl:w-32 h-auto"
+              src={item.image}
+              alt={item.title}
+            />
+          </a>
+        )
+      )
+    }
   </aside>
   <section
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"

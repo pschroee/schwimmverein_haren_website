@@ -1,9 +1,11 @@
-import { NavItems, SocialLinks, SingleInternalNews } from "./types"
-import internalNewsJson from "./data/internalNews.json"
+import { NavItems, SocialLinks, SingleInternalNews, SidebarItem } from "./types"
+import homepageJson from "./data/homepage.json"
 
-export const internalNews: SingleInternalNews[] = internalNewsJson.news.filter(
+export const internalNews: SingleInternalNews[] = homepageJson.news.filter(
   (item) => item.active
 )
+
+export const sidebarItems: SidebarItem[] = homepageJson.sidebar
 
 export const NAVITEMS: NavItems = [
   { title: "Home", href: "/" },

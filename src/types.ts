@@ -18,3 +18,11 @@ export type SingleInternalNews = {
   body: string
   href?: string
 }
+
+export type SidebarItem = {
+  title: string
+  active: boolean
+  image: string
+  href: string
+  external: boolean
+}

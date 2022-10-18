@@ -17,5 +17,21 @@
       "body": "Es gibt neue Trainingstermine",
       "href": "https://schwimmverein-haren.de/index.php?id=105"
     }
+  ],
+  "sidebar": [
+    {
+      "title": "Schwimmgut Logo",
+      "active": true,
+      "image": "/images/uploads/sidebar/schwimmgut_logo.png",
+      "href": "https://google.de",
+      "external": true
+    },
+    {
+      "title": "Mitgliedschaft",
+      "active": true,
+      "image": "/images/uploads/sidebar/mitgliedschaft.png",
+      "href": "/ueber-uns/mitgliedschaft/",
+      "external": false
+    }
   ]
 }
