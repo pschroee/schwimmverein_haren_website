@@ -44,6 +44,8 @@ collections:
       - name: "sidebar"
         label: "Sidebar"
         file: "src/data/homepage.json"
+        editor:
+          preview: false
         fields:
           - label: "Sidebar"
             name: "sidebar"
@@ -56,7 +58,8 @@ collections:
                 media_library:
                   config:
                     multiple: false
-              - { label: Link, name: href, widget: string, required: false }
+                media_folder: "sidebar"
+              - { label: Link, name: href, widget: string }
               - {
                   label: "Externer Link",
                   name: "external",
