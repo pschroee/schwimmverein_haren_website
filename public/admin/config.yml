@@ -49,6 +49,8 @@ collections:
         fields:
           - label: "Sidebar"
             name: "sidebar"
+            media_folder: "/public/images/uploads/sidebar"
+            public_folder: "/images/uploads/sidebar"
             widget: "list"
             fields:
               - { label: Titel, name: title, widget: string }
