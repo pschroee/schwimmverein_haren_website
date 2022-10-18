@@ -1,18 +1,18 @@
 {
   "sidebar": [
     {
-      "external": true,
-      "active": true,
-      "image": "/images/uploads/sidebar/snip_20221018173859.png",
-      "title": "Kreisschwimmverband",
-      "href": "http://www.kreisschwimmverband-emsland.de/index.htm"
-    },
-    {
       "title": "Mitgliedschaft",
       "active": true,
       "image": "/images/uploads/sidebar/mitgliedschaft.png",
       "href": "/ueber-uns/mitgliedschaft/",
       "external": false
+    },
+    {
+      "external": true,
+      "active": true,
+      "image": "/images/uploads/sidebar/snip_20221018173859.png",
+      "title": "Kreisschwimmverband",
+      "href": "http://www.kreisschwimmverband-emsland.de/index.htm"
     },
     {
       "title": "Schwimmgut Logo",
