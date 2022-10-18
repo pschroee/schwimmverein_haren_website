@@ -41,3 +41,32 @@ collections:
                   widget: "boolean",
                   default: true,
                 }
+      - name: "sidebar"
+        label: "Sidebar"
+        file: "src/data/homepage.json"
+        fields:
+          - label: "Sidebar"
+            name: "sidebar"
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - label: "Bild"
+                name: "image"
+                widget: "image"
+                media_library:
+                  config:
+                    multiple: false
+              - { label: Bild, name: image, widget: image }
+              - { label: Link, name: href, widget: string, required: false }
+              - {
+                  label: "Externer Link",
+                  name: "external",
+                  widget: "boolean",
+                  default: true,
+                }
+              - {
+                  label: "Aktiv",
+                  name: "active",
+                  widget: "boolean",
+                  default: true,
+                }
