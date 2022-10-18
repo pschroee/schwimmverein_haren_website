@@ -9,7 +9,8 @@ exports.handler = async (event, context) => {
   // When the method is POST, the name will no longer be in the event’s
   // queryStringParameters – it’ll be in the event body encoded as a queryString
 
-  if (event.httpMethod !== "GET") {
+  console.log(event.httpMethod)
+  if (event.httpMethod === "GET") {
     const challenge = event.queryStringParameters["hub.challenge"]
     const verifyToken = event.queryStringParameters["hub.verify_token"]
     const mode = event.queryStringParameters["hub.mode"]
@@ -22,7 +23,7 @@ exports.handler = async (event, context) => {
     }
     return { statusCode: 200, body: challenge }
   }
-  if (event.httpMethod !== "POST") {
+  if (event.httpMethod === "POST") {
     return fetch(process.env.NETLIFY_BUILD_HOOK, {
       headers: {
         "content-type": "application/json",
