@@ -17,5 +17,6 @@ export async function getPosts() {
         limit: 10,
       })
   ).then((response) => response.json())
-  return data.data.filter((post) => post.message)
+  const filteredPostsWithMessages = data.data.filter((post) => post.message)
+  return filteredPostsWithMessages.slice(0, 4)
 }

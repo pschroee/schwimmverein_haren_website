@@ -1,12 +1,15 @@
 ---
+import { format } from "date-fns"
+
 export interface Props {
   item: any
 }
 const {
-  item: { message, place, permalink_url, attachments },
+  item: { message, place, permalink_url, attachments, created_time },
 } = Astro.props
 const image = attachments.data[0]
 const imageLandscape = image.media.image.width > image.media.image.height
+const formattedDate = format(new Date(created_time), "dd.MM.yyyy")
 ---
 
 <a
@@ -25,9 +28,16 @@ const imageLandscape = image.media.image.width > image.media.image.height
     alt={image.title}
   />
   <div class="flex flex-col justify-between p-4 leading-normal">
-    <div class="line-clamp-4">
+    <div class="line-clamp-3">
       {message}
     </div>
-    {place && <div class="font-bold">Ort: {place.name}</div>}
+    {
+      place && (
+        <div class="font-bold">
+          <div>Ort: {place.name}</div>
+          <div>Veröffentlich am: {formattedDate}</div>
+        </div>
+      )
+    }
   </div>
 </a>
