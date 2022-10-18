@@ -1,6 +1,13 @@
 {
   "sidebar": [
     {
+      "external": true,
+      "active": true,
+      "image": "/images/uploads/sidebar/google__g__logo.svg.png",
+      "title": "Google",
+      "href": "https://google.de"
+    },
+    {
       "title": "Mitgliedschaft",
       "active": true,
       "image": "/images/uploads/sidebar/mitgliedschaft.png",
