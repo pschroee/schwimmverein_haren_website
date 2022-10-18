@@ -1,5 +1,4 @@
-const querystring = import("querystring")
-const fetch = import("node-fetch")
+import fetch from "node-fetch"
 
 exports.handler = async (event, context) => {
   // Only allow POST
@@ -9,12 +8,11 @@ exports.handler = async (event, context) => {
 
   // When the method is POST, the name will no longer be in the event’s
   // queryStringParameters – it’ll be in the event body encoded as a queryString
-  const params = querystring.parse(event.body)
-  const challenge = params["hub.challenge"]
-  const verifyToken = params["hub.verifyToken"]
+  const challenge = event.queryStringParameters["hub.challenge"]
+  const verifyToken = event.queryStringParameters["hub.verifyToken"]
 
   if (process.env.FACEBOOK_VERIFY_TOKEN != verifyToken) {
-    return { statusCode: 401, body: "Wrong verify token" }
+    return { statusCode: 401, body: challenge }
   }
 
   // Send greeting to Slack
