@@ -1,5 +1,5 @@
-const querystring = require("querystring")
-const fetch = require("node-fetch")
+const querystring = import("querystring")
+const fetch = import("node-fetch")
 
 exports.handler = async (event, context) => {
   // Only allow POST
