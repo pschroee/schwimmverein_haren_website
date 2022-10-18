@@ -26,7 +26,7 @@ collections:
     files:
       - name: "news-website"
         label: "Website News"
-        file: "src/data/homepage.json"
+        file: "src/data/homepage-news.json"
         fields:
           - label: "News"
             name: "news"
@@ -43,7 +43,7 @@ collections:
                 }
       - name: "sidebar"
         label: "Sidebar"
-        file: "src/data/homepage.json"
+        file: "src/data/homepage-sidebar.json"
         editor:
           preview: false
         fields:
@@ -58,7 +58,7 @@ collections:
                 media_library:
                   config:
                     multiple: false
-                media_folder: "sidebar"
+                    media_folder: "sidebar"
               - { label: Link, name: href, widget: string }
               - {
                   label: "Externer Link",
