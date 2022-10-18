@@ -49,18 +49,17 @@ collections:
         fields:
           - label: "Sidebar"
             name: "sidebar"
-            media_folder: "/public/images/uploads/sidebar"
-            public_folder: "/images/uploads/sidebar"
             widget: "list"
             fields:
               - { label: Titel, name: title, widget: string }
               - label: "Bild"
                 name: "image"
                 widget: "image"
+                media_folder: "/public/images/uploads/sidebar"
+                public_folder: "/images/uploads/sidebar"
                 media_library:
                   config:
                     multiple: false
-                    media_folder: "sidebar"
               - { label: Link, name: href, widget: string }
               - {
                   label: "Externer Link",
