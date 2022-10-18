@@ -56,7 +56,6 @@ collections:
                 media_library:
                   config:
                     multiple: false
-              - { label: Bild, name: image, widget: image }
               - { label: Link, name: href, widget: string, required: false }
               - {
                   label: "Externer Link",
