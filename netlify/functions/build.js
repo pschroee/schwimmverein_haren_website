@@ -9,7 +9,7 @@ exports.handler = async (event, context) => {
   // When the method is POST, the name will no longer be in the event’s
   // queryStringParameters – it’ll be in the event body encoded as a queryString
   const challenge = event.queryStringParameters["hub.challenge"]
-  const verifyToken = event.queryStringParameters["hub.verifyToken"]
+  const verifyToken = event.queryStringParameters["hub.verify_token"]
 
   if (process.env.FACEBOOK_VERIFY_TOKEN != verifyToken) {
     return { statusCode: 401, body: challenge }
