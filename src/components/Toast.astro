@@ -3,24 +3,25 @@ export interface Props {
   title: string
   body: string
   href?: string
+  danger?: boolean
 }
 
-const { title, body, href } = Astro.props as Props
+const { title, body, href, danger = true } = Astro.props as Props
 ---
 
 {
   href ? (
     <a
-      class="flex items-center p-4 w-full max-w-screen-lg text-gray-500 bg-white hover:bg-gray-100 active:bg-gray-100 rounded-lg shadow"
+      class="flex items-center p-4 w-full max-w-screen-lg text-gray-800 bg-blue-200 hover:bg-blue-100 active:bg-blue-100 rounded-lg shadow"
       href={href}
     >
       <div class="text-sm font-bold">{title}</div>
-      <div class="ml-3 text-sm font-normal whitespace-pre-wrap">{body}</div>
+      <div class="ml-3 text-sm font-normal">{body}</div>
     </a>
   ) : (
-    <div class="flex items-center p-4 w-full max-w-screen-lg text-gray-500 bg-white rounded-lg shadow">
+    <div class="flex items-center p-4 w-full max-w-screen-lg text-gray-800 bg-blue-200 rounded-lg shadow">
       <div class="text-sm font-bold">{title}</div>
-      <div class="ml-3 text-sm font-normal whitespace-pre-wrap">{body}</div>
+      <div class="ml-3 text-sm font-normal">{body}</div>
     </div>
   )
 }

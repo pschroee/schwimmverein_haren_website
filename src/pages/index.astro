@@ -2,6 +2,9 @@
 import Toast from "../components/Toast.astro"
 import Layout from "../layouts/Layout.astro"
 import { internalNews } from "../config"
+import { getPosts } from "../lib/facebook"
+import SingleNewsCard from "../components/SingleNewsCard.astro"
+const posts = await getPosts()
 ---
 
 <Layout title="Home" showBanner>
@@ -13,6 +16,14 @@ import { internalNews } from "../config"
         <Toast title={item.title} body={item.body} href={item.href} />
       ))
     }
+  </section>
+  <section
+    class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
+  >
+    <h2 class="text-4xl font-bold">News</h2>
+    <div class="grid grid-cols-2 gap-6 place-items-start">
+      {posts.map((item) => <SingleNewsCard item={item} />)}
+    </div>
   </section>
   <section
     class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-12"
