@@ -10,15 +10,23 @@ export interface Props {
   class?: string
 }
 let pathname = new URL(Astro.request.url).pathname
+if (pathname[pathname.length - 1] == "/" && pathname.length > 1)
+  pathname = pathname.slice(0, -1)
 
 const { breadcrumb } = Astro.props as Props
 
 function checkSubNavActive(item) {
-  if (item.href == pathname) return true
+  const href =
+    item.href[item.href.length - 1] == "/" ? item.href.slice(0, -1) : item.href
+  if (href == pathname) return true
   const { subnav } = item
   let active = false
   for (let i = 0; i < subnav.length; i++) {
-    if (subnav[i].href == pathname) active = true
+    const subnavHref =
+      subnav[i].href[subnav[i].href.length - 1] == "/"
+        ? subnav[i].href.slice(0, -1)
+        : subnav[i].href
+    if (subnavHref == pathname) active = true
   }
   return active
 }
