@@ -18,5 +18,5 @@ export async function getPosts() {
       })
   ).then((response) => response.json())
   const filteredPostsWithMessages = data.data.filter((post) => post.message)
-  return filteredPostsWithMessages.slice(0, 10)
+  return filteredPostsWithMessages.slice(0, 3)
 }
