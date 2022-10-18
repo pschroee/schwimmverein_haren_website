@@ -33,13 +33,16 @@ const { title, breadcrumb, showBanner = false } = Astro.props
         />
       )
     }
-    <main
-      class={`px-6 py-6 md:py-8 sm:px-8 md:px-10 xl:px-0${
-        Astro.props.class ? " " + Astro.props.class : ""
-      }`}
-    >
-      <slot />
-    </main>
+    <div id="wrapper">
+      <slot name="sidebar" />
+      <main
+        class={`col-start-2 row-start-1 px-6 py-6 md:py-8 sm:px-8 md:px-10 lg:px-2 xl:px-0${
+          Astro.props.class ? " " + Astro.props.class : ""
+        }`}
+      >
+        <slot />
+      </main>
+    </div>
     <Footer />
 
     <style is:global>
@@ -51,5 +54,11 @@ const { title, breadcrumb, showBanner = false } = Astro.props
       }
     </style>
     <Scripts />
+    <style>
+      #wrapper {
+        display: grid;
+        grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+      }
+    </style>
   </body>
 </html>

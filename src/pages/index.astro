@@ -8,6 +8,25 @@ const posts = await getPosts()
 ---
 
 <Layout title="Home" showBanner>
+  <aside
+    slot="sidebar"
+    class="col-start-2 xl:col-start-3 flex flex-wrap justify-center gap-8 xl:justify-start xl:flex-col xl:items-center px-6 pb-6 md:pb-8 xl:py-8 sm:px-8 md:px-10 lg:px-2"
+  >
+    <a href="https://google.de" class="">
+      <img
+        class="w-28 xl:w-32 h-auto"
+        src="/images/uploads/badges/schwimmgut_logo.png"
+        alt="Schwimmgut Logo"
+      />
+    </a>
+    <a href="https://google.de" class="">
+      <img
+        class="w-28 xl:w-32 h-auto"
+        src="/images/uploads/badges/mitgliedschaft.png"
+        alt="Schwimmgut Logo"
+      />
+    </a>
+  </aside>
   <section
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
