@@ -27,8 +27,8 @@ const { title, breadcrumb, showBanner = false } = Astro.props
     {
       showBanner && (
         <img
-          src={bannerImg}
-          alt=""
+          src={bannerImg.src}
+          alt="Banner"
           class="object-cover h-32 sm:h-40 md:h-52 lg:h-60"
         />
       )
