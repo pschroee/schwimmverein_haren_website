@@ -16,7 +16,7 @@ const { items, mode } = Astro.props as Props
 
 <div id={`accordion-${id}`} data-accordion={mode} class={Astro.props.class}>
   {
-    items.map(async (item, index) => (
+    items.map((item, index) => (
       <>
         <h2 id={`accordion-${id}-heading-${index}`}>
           <button
@@ -56,7 +56,10 @@ const { items, mode } = Astro.props as Props
               items.length === index + 1 ? "border-t-0" : "border-b-0"
             } border-gray-200`}
           >
-            <p class="text-gray-500">{await markdown(item.text)}</p>
+            <div
+              class="format lg:format-lg text-gray-500"
+              set:html={markdown(item.text)}
+            />
           </div>
         </div>
       </>
