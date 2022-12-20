@@ -1,6 +1,7 @@
 ---
 import { v4 as uuidv4 } from "uuid"
 import { AccordionItem } from "../types"
+import { markdown } from "@astropub/md"
 
 const id = uuidv4()
 
@@ -15,7 +16,7 @@ const { items, mode } = Astro.props as Props
 
 <div id={`accordion-${id}`} data-accordion={mode} class={Astro.props.class}>
   {
-    items.map((item, index) => (
+    items.map(async (item, index) => (
       <>
         <h2 id={`accordion-${id}-heading-${index}`}>
           <button
@@ -55,7 +56,7 @@ const { items, mode } = Astro.props as Props
               items.length === index + 1 ? "border-t-0" : "border-b-0"
             } border-gray-200`}
           >
-            <p class="text-gray-500">{item.text}</p>
+            <p class="text-gray-500">{await markdown(item.text)}</p>
           </div>
         </div>
       </>
