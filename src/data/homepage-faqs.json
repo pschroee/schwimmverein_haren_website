@@ -1,7 +1,12 @@
 {
   "faqs": [
-    { "title": "What is flowbite?", "text": "Hallo wie geht es dir?" },
-    { "title": "What is flowbite?2", "text": "Hallo wie geht es dir?" },
-    { "title": "What is flowbite?3", "text": "Hallo wie geht es dir?" }
+    {
+      "title": "Warum sehe keine Fotos im Fotoalbum?",
+      "text": "Das Fotoalbum des Schwimmverein Haren e.V. dürfen nur von registrierte Benutzer angeschaut werden!"
+    },
+    {
+      "title": "Was muss ich machen wenn ich Mitglied werden will?",
+      "text": "Die genaue Infos zur Mitgliedschaft finden Sie hier."
+    }
   ]
 }
