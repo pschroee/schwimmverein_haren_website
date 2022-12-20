@@ -26,3 +26,8 @@ export type SidebarItem = {
   href: string
   external: boolean
 }
+
+export type AccordionItem = {
+  title: string
+  text: string
+}

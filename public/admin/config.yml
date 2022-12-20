@@ -75,3 +75,15 @@ collections:
                   widget: "boolean",
                   default: true,
                 }
+      - name: "faqs"
+        label: "Faqs"
+        file: "src/data/homepage-faqs.json"
+        editor:
+          preview: false
+        fields:
+          - label: "Faqs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: string }
