@@ -84,7 +84,7 @@ export const FOOTERITEMS: NavItems = [
   },
   {
     title: "FAQ",
-    href: "/#faq",
+    href: "/faq/",
   },
   {
     title: "Kontakt",

@@ -4,8 +4,6 @@ import Layout from "../layouts/Layout.astro"
 import { internalNews, sidebarItems } from "../config"
 import { getPosts } from "../lib/facebook"
 import SingleNewsCard from "../components/SingleNewsCard.astro"
-import Accordion from "../components/Accordion.astro"
-import faqs from "../data/homepage-faqs.json"
 const posts = await getPosts()
 ---
 
@@ -84,15 +82,4 @@ const posts = await getPosts()
       </svg>
     </a>
   </section>
-
-  {
-    faqs.faqs.length > 0 && (
-      <section class="max-w-screen-lg mx-auto mb-12" id="faq">
-        <h2 class="col-span-2 mb-2 text-4xl font-bold text-gray-800">
-          Frequently Asked Questions
-        </h2>
-        <Accordion items={faqs.faqs} mode="collapse" class="mt-6" />
-      </section>
-    )
-  }
 </Layout>

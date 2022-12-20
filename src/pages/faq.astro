@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Accordion from "../components/Accordion.astro"
+import faqs from "../data/homepage-faqs.json"
+---
+
+<Layout title="FAQ">
+  <div class="max-w-screen-lg mx-auto">
+    <h2 class="col-span-2 mb-2 text-4xl font-bold text-gray-800">
+      Frequently Asked Questions
+    </h2>
+    <Accordion items={faqs.faqs} mode="collapse" class="mt-6" />
+  </div>
+</Layout>
