@@ -27,7 +27,7 @@ const { items, mode } = Astro.props as Props
               index > 0 ? "" : " rounded-t-xl"
             } focus:ring-4 focus:ring-gray-200 hover:bg-gray-100`}
             data-accordion-target={`#accordion-${id}-body-${index}`}
-            aria-expanded={index > 0 ? "false" : "true"}
+            aria-expanded={"false"}
             aria-controls={`accordion-${id}-body-${index}`}
           >
             <span>{item.title}</span>
@@ -48,7 +48,7 @@ const { items, mode } = Astro.props as Props
         </h2>
         <div
           id={`accordion-${id}-body-${index}`}
-          class={index > 0 ? "hidden" : ""}
+          class={"hidden"}
           aria-labelledby={`accordion-${id}-heading-${index}`}
         >
           <div
