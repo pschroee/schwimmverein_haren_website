@@ -32,4 +32,4 @@ export type AccordionItem = {
   text: string
 }
 
-export type FileTypeIcon = "excel" | "pdf"
+export type FileTypeIcon = "excel" | "pdf" | "word" | "zip"
