@@ -99,10 +99,10 @@ collections:
             name: "downloads"
             widget: "list"
             fields:
+              - { label: Label, name: label, widget: string }
               - label: "Datei"
                 name: "filename"
                 widget: "file"
-              - { label: Label, name: label, widget: string }
               - label: "Dateityp"
                 name: "filetype"
                 widget: "select"
