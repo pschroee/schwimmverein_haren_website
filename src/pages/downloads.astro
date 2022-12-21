@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro"
+import DownloadItem from "../components/DownloadItem.astro"
+import { FileTypeIcon } from "../types"
+const downloadItems = [
+  { filename: "24h_Schwimmen_2019_Gruppe.xls", filetype: "excel" },
+  { filename: "Anmeldeformular_SV_Haren_4.1.pdf", filetype: "pdf" },
+  { filename: "Anmeldung_24h_Schwimmen_2019.pdf", filetype: "pdf" },
+  { filename: "Antrag_Ehrenamtskarte.pdf", filetype: "pdf" },
+  { filename: "Ausbildung_LSN.pdf", filetype: "pdf" },
+  { filename: "Ehrenamtskarte_Stadt_Haren.pdf", filetype: "pdf" },
+  { filename: "SV_Haren_Kalender_2019.pdf", filetype: "pdf" },
+  { filename: "SV_Haren_Kalender_2020.pdf", filetype: "pdf" },
+] as { filename: string; filetype: FileTypeIcon }[]
+---
+
+<Layout title="FAQ" breadcrumb={[{ title: "FAQ" }]}>
+  <div class="max-w-screen-lg mx-auto">
+    <h2 class="col-span-2 mb-6 text-4xl font-bold text-gray-800">Downloads</h2>
+    <ul class="space-y-2">
+      {
+        downloadItems.map((item) => (
+          <DownloadItem
+            filename={item.filename}
+            filetype={item.filetype}
+            label={item.filename}
+          />
+        ))
+      }
+    </ul>
+  </div>
+</Layout>

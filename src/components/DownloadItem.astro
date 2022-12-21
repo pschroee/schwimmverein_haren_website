@@ -1,0 +1,26 @@
+---
+import FileTypeIconComponent from "./FileTypeIcon.astro"
+import { FileTypeIcon } from "../types"
+
+export interface Props {
+  label: string
+  filename: string
+  filetype: FileTypeIcon
+}
+
+const { filename, filetype, label } = Astro.props as Props
+---
+
+<a
+  href={`downloads/${filename}`}
+  class="flex items-center p-3 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100"
+  download
+>
+  <FileTypeIconComponent icon={filetype} class="w-8 h-8 sm:w-10 sm:h-10" />
+
+  <h3
+    class="ml-2 sm:ml-4 text-sm font-bold sm:font-normal sm:text-lg text-gray-900"
+  >
+    {label}
+  </h3>
+</a>
