@@ -1,6 +1,8 @@
 ---
 title: "Impressum"
 layout: "../layouts/MarkdownLayout.astro"
+breadcrumb:
+  - title: "Impressum"
 ---
 
 Angaben im Sinne §5 TMG

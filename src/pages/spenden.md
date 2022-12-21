@@ -1,6 +1,8 @@
 ---
 title: "Spenden"
 layout: "../layouts/MarkdownLayout.astro"
+breadcrumb:
+  - title: "Spenden"
 ---
 
 ## Unterstützen Sie unseren Verein
