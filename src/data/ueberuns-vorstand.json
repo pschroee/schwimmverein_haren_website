@@ -1,128 +1,70 @@
 {
   "vorstand": [
     {
-      "name": "Heike Janning",
+      "name": "Andreas Hopster",
+      "image": "/images/uploads/vorstand/0_kein_foto.jpg",
+      "function": "1. Vorsitzender",
+      "email": "1vorsitzender@schwimmverein-haren.de"
+    },
+    {
+      "name": "Silke Schmid",
       "image": "/images/uploads/vorstand/0_kein_foto.jpg",
       "function": "2. Vorsitzender",
-      "email": "",
-      "phone": "01573 7229045"
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": ""
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
-    },
-    {
-      "name": "Test",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "",
-      "phone": ""
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
       "email": "2vorsitzender@schwimmverein-haren.de"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de"
+      "name": "Friedhelm Schröer",
+      "function": "Kassenwart & Mitgliederverwaltung",
+      "email": "kassenwart@schwimmverein-haren.de",
+      "image": "/images/uploads/vorstand/schroeer_friedhelm_280x360.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Guido Fehrmann",
+      "function": "Schriftführer",
+      "email": "schriftfuehrer@schwimmverein-haren.de",
+      "image": "/images/uploads/vorstand/0_kein_foto.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Marita Drees",
+      "function": "Schwimmwartin",
+      "email": "schwimmwart@schwimmverein-haren.de",
+      "image": "/images/uploads/vorstand/drees_marita_280x360.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Claudia Gerdelmann",
+      "image": "/images/uploads/vorstand/gerdelmann_claudia_280x360.jpg",
+      "function": "Beisitzerin & Koordination Wassergewöhnung",
+      "email": "koordination-wassergewoehnung@schwimmverein-haren.de"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Anne Santen-Mört",
+      "function": "Beisitzerin",
+      "image": "/images/uploads/vorstand/0_kein_foto.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Marianne Gröninger",
+      "function": "Frauenwartin",
+      "email": "frauenwart@schwimmverein-haren.de",
+      "image": "/images/uploads/vorstand/groeninger_marieanne280x360.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Claas Robben",
+      "function": "Jugendwart",
+      "email": "jugendwart@schwimmverein-haren.de",
+      "image": "/images/uploads/vorstand/robben_claas_280x360.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Melanie Fehrmann",
+      "function": "Leiterin Intensivschwimmkurs",
+      "email": "intensivschwimmkurs@schwimmverein-haren.de",
+      "phone": "0152 51694111",
+      "image": "/images/uploads/vorstand/fehrmann_melanie_280x360.jpg"
     },
     {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
-    },
-    {
-      "name": "Heike Janning",
-      "image": "https://schwimmverein-haren.de/fileadmin/svharen/trainerundbetreuer/janning_heike_280x360.jpg",
-      "function": "2. Vorsitzender",
-      "email": "2vorsitzender@schwimmverein-haren.de",
-      "phone": "01573 7229045"
+      "name": "Sophia Mört",
+      "function": "Jugendsprecher",
+      "email": "jugendsprecher@schwimmverein-haren.de",
+      "image": "/images/uploads/vorstand/0_kein_foto.jpg"
     }
   ]
 }
