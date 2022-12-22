@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/Layout.astro"
+const breadcrumbs = [
+  { title: "Über uns", href: "/ueber-uns/" },
+  { title: "Protokolle Jahreshauptversammlung" },
+]
+import DownloadItem from "../../components/DownloadItem.astro"
+import { FileTypeIcon } from "../../types"
+import protokolleJson from "../../data/ueberuns-protokolle.json"
+const protokolleItems = protokolleJson.protokolle as {
+  filename: string
+  filetype: FileTypeIcon
+  label: string
+}[]
+---
+
+<Layout title="FAQ" breadcrumb={breadcrumbs}>
+  <div class="max-w-screen-lg mx-auto">
+    <h1 class="col-span-2 mb-6 text-4xl font-bold text-gray-800">
+      Protokolle Jahreshauptversammlung
+    </h1>
+    {
+      protokolleItems.length > 0 && (
+        <ul class="space-y-2">
+          {protokolleItems.map((item) => (
+            <DownloadItem
+              filename={item.filename}
+              filetype={item.filetype}
+              label={item.label}
+            />
+          ))}
+        </ul>
+      )
+    }
+  </div>
+</Layout>

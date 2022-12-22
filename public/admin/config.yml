@@ -107,3 +107,23 @@ collections:
                 name: "filetype"
                 widget: "select"
                 options: ["pdf", "excel", "word", "image"]
+      - name: "protokolle"
+        label: "Protokolle Jahreshauptversammlung"
+        file: "src/data/ueberuns-protokolle.json"
+        media_folder: "/public/downloads/protokolle"
+        public_folder: "/downloads/protokolle"
+        editor:
+          preview: false
+        fields:
+          - label: "Protokolle Jahreshauptversammlung"
+            name: "protokolle"
+            widget: "list"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - label: "Datei"
+                name: "filename"
+                widget: "file"
+              - label: "Dateityp"
+                name: "filetype"
+                widget: "select"
+                options: ["pdf", "excel", "word", "image"]
