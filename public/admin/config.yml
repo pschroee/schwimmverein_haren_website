@@ -127,3 +127,25 @@ collections:
                 name: "filetype"
                 widget: "select"
                 options: ["pdf", "excel", "word", "image"]
+      - name: "vorstand"
+        label: "Vorstand"
+        file: "src/data/ueberuns-vorstand.json"
+        media_folder: "/public/images/uploads/vorstand"
+        public_folder: "/images/uploads/vorstand"
+        editor:
+          preview: false
+        fields:
+          - label: "Vorstand"
+            name: "vorstand"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string, required: true }
+              - { label: Bild, name: image, widget: image, required: true }
+              - {
+                  label: Funktion,
+                  name: function,
+                  widget: string,
+                  required: true,
+                }
+              - { label: Telefon, name: phone, widget: string, required: false }
+              - { label: E-Mail, name: email, widget: string, required: false }
