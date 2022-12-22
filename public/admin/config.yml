@@ -149,3 +149,25 @@ collections:
                 }
               - { label: E-Mail, name: email, widget: string, required: false }
               - { label: Telefon, name: phone, widget: string, required: false }
+      - name: "trainerundbetreuer"
+        label: "Trainer & Betreuer"
+        file: "src/data/ueberuns-trainerundbetreuer.json"
+        media_folder: "/public/images/uploads/trainerundbetreuer"
+        public_folder: "/images/uploads/trainerundbetreuer"
+        editor:
+          preview: false
+        fields:
+          - label: "Trainer & Betreuer"
+            name: "trainerundbetreuer"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string, required: true }
+              - { label: Bild, name: image, widget: image, required: true }
+              - {
+                  label: Funktion,
+                  name: function,
+                  widget: string,
+                  required: true,
+                }
+              - { label: E-Mail, name: email, widget: string, required: false }
+              - { label: Telefon, name: phone, widget: string, required: false }
