@@ -6,7 +6,7 @@ import Layout from "../../layouts/Layout.astro"
   <div class="max-w-screen-lg mx-auto">
     <div
       id="form-success"
-      class="hidden flex mb-6 p-4 text-sm text-gray-700 bg-gray-100 rounded-lg dark:bg-gray-700 dark:text-gray-300"
+      class="hidden flex mb-6 p-4 text-sm text-gray-700 bg-gray-100 rounded-lg"
       role="alert"
     >
       <svg
@@ -104,10 +104,11 @@ import Layout from "../../layouts/Layout.astro"
           />
         </div>
         <label for="remember" class="ml-2 text-sm font-medium text-gray-900"
-          >Ich habe den <a href="#" class="text-blue-600 hover:underline"
-            >Datenschutzhinweis</a
-          > Schwimmvereins Haren e.V. gelesen und stimme der Weiterverarbeitung meiner
-          Daten für die Kontaktaufnahme zu.</label
+          >Ich habe die <a
+            href="/datenschutzerklärung/"
+            class="text-blue-600 hover:underline">Datenschutzerklärung</a
+          > des Schwimmvereins Haren e.V. gelesen und stimme der Weiterverarbeitung
+          meiner Daten für die Kontaktaufnahme zu.</label
         >
       </div>
       <div data-netlify-recaptcha="true"></div>
