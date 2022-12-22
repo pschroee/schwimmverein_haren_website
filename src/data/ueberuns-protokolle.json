@@ -1,3 +1,9 @@
 {
-  "protokolle": []
+  "protokolle": [
+    {
+      "label": "Jahr 2009",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2009.pdf",
+      "filetype": "pdf"
+    }
+  ]
 }
