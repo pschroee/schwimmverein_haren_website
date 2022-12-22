@@ -1,10 +1,41 @@
 {
   "trainerundbetreuer": [
     {
-      "name": "Andreas Hopster",
-      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg",
-      "function": "1. Vorsitzender",
-      "email": "1vorsitzender@schwimmverein-haren.de"
+      "name": "Heike Janning",
+      "image": "/images/uploads/trainerundbetreuer/janning_heike_280x360.jpg",
+      "function": "Cheftrainerin",
+      "email": ""
+    },
+    {
+      "name": "Melanie Fehrmann",
+      "image": "/images/uploads/trainerundbetreuer/fehrmann_melanie_280x360.jpg",
+      "function": "Trainerin"
+    },
+    {
+      "name": "Jens Hoppe",
+      "image": "/images/uploads/trainerundbetreuer/hoppe_jens_280x360.jpg",
+      "function": "Trainer"
+    },
+    {
+      "name": "Sebastian Eiken",
+      "image": "/images/uploads/trainerundbetreuer/eiken_sebastian_280x360.jpg",
+      "function": "Trainer"
+    },
+    {
+      "name": "Anna Held",
+      "function": "Trainerin",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg"
+    },
+    {
+      "name": "Sabrina Ellhof",
+      "function": "Leiterin Aquafitness",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
+      "phone": "0177 4004721"
+    },
+    {
+      "name": "Alicia Cordes",
+      "image": "/images/uploads/trainerundbetreuer/cordes_alicia_280x360.jpg",
+      "function": "Trainerin"
     }
   ]
 }
