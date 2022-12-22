@@ -15,7 +15,7 @@ export const NAVITEMS: NavItems = [
     title: "Über uns",
     href: "/ueber-uns/",
     subnav: [
-      { title: "Vorstand", href: "/ueber-uns/vorstand/" },
+      { title: "Ansprechpartner", href: "/ueber-uns/ansprechpartner/" },
       {
         title: "Trainer und Betreuer",
         href: "/ueber-uns/trainer-und-betreuer",

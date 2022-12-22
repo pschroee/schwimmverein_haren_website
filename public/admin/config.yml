@@ -127,16 +127,16 @@ collections:
                 name: "filetype"
                 widget: "select"
                 options: ["pdf", "excel", "word", "image"]
-      - name: "vorstand"
-        label: "Vorstand"
-        file: "src/data/ueberuns-vorstand.json"
-        media_folder: "/public/images/uploads/vorstand"
-        public_folder: "/images/uploads/vorstand"
+      - name: "ansprechpartner"
+        label: "Ansprechpartner"
+        file: "src/data/ueberuns-ansprechpartner.json"
+        media_folder: "/public/images/uploads/ansprechpartner"
+        public_folder: "/images/uploads/ansprechpartner"
         editor:
           preview: false
         fields:
-          - label: "Vorstand"
-            name: "vorstand"
+          - label: "Ansprechpartner"
+            name: "ansprechpartner"
             widget: "list"
             fields:
               - { label: Name, name: name, widget: string, required: true }

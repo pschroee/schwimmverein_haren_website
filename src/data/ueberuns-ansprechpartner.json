@@ -1,14 +1,14 @@
 {
-  "vorstand": [
+  "ansprechpartner": [
     {
       "name": "Andreas Hopster",
-      "image": "/images/uploads/vorstand/0_kein_foto.jpg",
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg",
       "function": "1. Vorsitzender",
       "email": "1vorsitzender@schwimmverein-haren.de"
     },
     {
       "name": "Silke Schmid",
-      "image": "/images/uploads/vorstand/0_kein_foto.jpg",
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg",
       "function": "2. Vorsitzender",
       "email": "2vorsitzender@schwimmverein-haren.de"
     },
@@ -16,55 +16,55 @@
       "name": "Friedhelm Schröer",
       "function": "Kassenwart & Mitgliederverwaltung",
       "email": "kassenwart@schwimmverein-haren.de",
-      "image": "/images/uploads/vorstand/schroeer_friedhelm_280x360.jpg"
+      "image": "/images/uploads/ansprechpartner/schroeer_friedhelm_280x360.jpg"
     },
     {
       "name": "Guido Fehrmann",
       "function": "Schriftführer",
       "email": "schriftfuehrer@schwimmverein-haren.de",
-      "image": "/images/uploads/vorstand/0_kein_foto.jpg"
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
     },
     {
       "name": "Marita Drees",
       "function": "Schwimmwartin",
       "email": "schwimmwart@schwimmverein-haren.de",
-      "image": "/images/uploads/vorstand/drees_marita_280x360.jpg"
+      "image": "/images/uploads/ansprechpartner/drees_marita_280x360.jpg"
     },
     {
       "name": "Claudia Gerdelmann",
-      "image": "/images/uploads/vorstand/gerdelmann_claudia_280x360.jpg",
+      "image": "/images/uploads/ansprechpartner/gerdelmann_claudia_280x360.jpg",
       "function": "Beisitzerin & Koordination Wassergewöhnung",
       "email": "koordination-wassergewoehnung@schwimmverein-haren.de"
     },
     {
       "name": "Anne Santen-Mört",
       "function": "Beisitzerin",
-      "image": "/images/uploads/vorstand/0_kein_foto.jpg"
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
     },
     {
       "name": "Marianne Gröninger",
       "function": "Frauenwartin",
       "email": "frauenwart@schwimmverein-haren.de",
-      "image": "/images/uploads/vorstand/groeninger_marieanne280x360.jpg"
+      "image": "/images/uploads/ansprechpartner/groeninger_marieanne280x360.jpg"
     },
     {
       "name": "Claas Robben",
       "function": "Jugendwart",
       "email": "jugendwart@schwimmverein-haren.de",
-      "image": "/images/uploads/vorstand/robben_claas_280x360.jpg"
+      "image": "/images/uploads/ansprechpartner/robben_claas_280x360.jpg"
     },
     {
       "name": "Melanie Fehrmann",
       "function": "Leiterin Intensivschwimmkurs",
       "email": "intensivschwimmkurs@schwimmverein-haren.de",
       "phone": "0152 51694111",
-      "image": "/images/uploads/vorstand/fehrmann_melanie_280x360.jpg"
+      "image": "/images/uploads/ansprechpartner/fehrmann_melanie_280x360.jpg"
     },
     {
       "name": "Sophia Mört",
       "function": "Jugendsprecher",
       "email": "jugendsprecher@schwimmverein-haren.de",
-      "image": "/images/uploads/vorstand/0_kein_foto.jpg"
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
     }
   ]
 }

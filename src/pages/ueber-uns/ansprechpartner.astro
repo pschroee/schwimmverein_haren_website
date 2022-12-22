@@ -1,20 +1,20 @@
 ---
 import Layout from "../../layouts/Layout.astro"
 import PeopleCard from "../../components/PeopleCard.astro"
-import vorstandJson from "../../data/ueberuns-vorstand.json"
+import ansprechpartnerJson from "../../data/ueberuns-ansprechpartner.json"
 
 const breadcrumbs = [
   { title: "Über uns", href: "/ueber-uns/" },
-  { title: "Vorstand" },
+  { title: "Ansprechpartner" },
 ]
 
-const persons = vorstandJson.vorstand
+const persons = ansprechpartnerJson.ansprechpartner
 ---
 
-<Layout title="Vorstand" breadcrumb={breadcrumbs}>
+<Layout title="Ansprechpartner" breadcrumb={breadcrumbs}>
   <div class="max-w-screen-lg mx-auto">
     <h1 class="col-span-2 mb-6 text-2xl sm:text-4xl font-bold text-gray-800">
-      Vorstand
+      Ansprechpartner
     </h1>
     <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {

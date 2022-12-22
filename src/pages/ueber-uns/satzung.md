@@ -43,7 +43,7 @@ Die Mitgliedschaft zum Verein kann jede natürliche Person erwerben, sofern sie 
 
 Die Mitgliedschaft zum Verein kann auch durch juristische Personen erworben werden.
 
-Die Mitgliedschaft wird durch Beschluss des Vereinsvorstandes erworben. Die Aufnahme kann nur aus wichtigen Gründen abgelehnt werden. Wird die Aufnahme abgelehnt, so steht dem Aufnahmesuchenden das Beschwerderecht an den Ehrenrat zu, der endgültig entscheidet.
+Die Mitgliedschaft wird durch Beschluss des Vereinsansprechpartneres erworben. Die Aufnahme kann nur aus wichtigen Gründen abgelehnt werden. Wird die Aufnahme abgelehnt, so steht dem Aufnahmesuchenden das Beschwerderecht an den Ehrenrat zu, der endgültig entscheidet.
 
 ## § 7 Ehrenmitglieder
 
@@ -122,7 +122,7 @@ c) Beschlussfassung über die Entlastung
 d) Neuwahl (wenn erforderlich),
 e) besondere Anträge.
 
-## § 16 Vereinsvorstand
+## § 16 Vereinsansprechpartner
 
 Der Vorstand setzt sich zusammen aus
 a) dem 1. Vorsitzenden,
@@ -138,7 +138,7 @@ Vorstand im Sinne des § 26 BGB sind der 1. Vorsitzende und sein Stellvertreter,
 
 ## § 17 Pflichten und Rechte des Vorstandes
 
-I) Aufgaben des Gesamtvorstandes:
+I) Aufgaben des Gesamtansprechpartneres:
 
 Der Vorstand hat die Geschäfte des Vereins nach den Vorschriften der Satzung und nach Maßgabe der durch die Mitgliederversammlung gefassten Beschlüsse zu führen. Nur für die Darlehnsaufnahme für Rechnung des Vereins bedarf es eines besonderen Beschlusses einer Mitgliederversammlung.
 
