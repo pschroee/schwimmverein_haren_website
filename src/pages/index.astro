@@ -47,7 +47,7 @@ const posts = await getPosts()
   <section
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
-    <h2 class="text-4xl font-bold">News</h2>
+    <h2 class="text-2xl sm:text-4xl font-bold">News</h2>
     <div class="grid grid-cols-2 gap-6 place-items-start">
       {posts.map((item) => <SingleNewsCard item={item} />)}
     </div>
@@ -56,7 +56,7 @@ const posts = await getPosts()
     class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-6"
   >
     <h1
-      class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
+      class="mb-4 text-2xl sm:text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
     >
       Wo kann ich mich anmelden?
     </h1>

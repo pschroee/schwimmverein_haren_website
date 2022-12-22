@@ -12,7 +12,7 @@ const navItem = NAVITEMS.find((item) => item.href == pathname)
 
 <Layout title={title} breadcrumb={[{ title }]}>
   <section class="flex flex-col max-w-screen-lg mx-auto">
-    <h1 class="mb-4 text-4xl font-bold">{title}</h1>
+    <h1 class="mb-4 text-2xl sm:text-4xl font-bold">{title}</h1>
     <div class="grid grid-cols-1 gap-2 lg:grid-cols-2 md:gap-4">
       {
         navItem.subnav.map((item) => (
