@@ -136,4 +136,12 @@ import Layout from "../layouts/Layout.astro"
       window.history.pushState({}, document.title, url.pathname)
     }, 2000)
   }
+  window.onload = function () {
+    var recaptcha = document.forms["Kontakt"]["g-recaptcha-response"]
+    recaptcha.required = true
+    recaptcha.oninvalid = function (e) {
+      // do something
+      alert('Please check the box, "I\'m not a robot" in the reCaptcha below.')
+    }
+  }
 </script>
