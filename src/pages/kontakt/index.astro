@@ -1,0 +1,100 @@
+---
+import Layout from "../../layouts/Layout.astro"
+---
+
+<Layout title="FAQ" breadcrumb={[{ title: "Kontakt" }]}>
+  <div class="max-w-screen-lg mx-auto">
+    <h1 class="col-span-2 mb-6 text-4xl font-bold text-gray-800">Kontakt</h1>
+
+    <form
+      name="kontakt"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
+    >
+      <label class="hidden">
+        Don’t fill this out if you’re human: <input name="bot-field" />
+      </label>
+      <div class="mb-6">
+        <label for="name" class="block mb-2 text-sm font-medium text-gray-900"
+          >Name *</label
+        >
+        <input
+          type="text"
+          id="name"
+          name="Name"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          placeholder="Max Mustermann"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label
+          for="subject"
+          class="block mb-2 text-sm font-medium text-gray-900">Betreff *</label
+        >
+        <input
+          type="text"
+          id="subject"
+          name="Betreff"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          placeholder="Betreff des Kontaktes"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label
+          for="email"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >E-Mail-Adresse *</label
+        >
+        <input
+          type="email"
+          id="email"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          placeholder="max.mustermann@gmx.de"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label
+          for="message"
+          class="block mb-2 text-sm font-medium text-gray-900"
+          >Nachricht *</label
+        >
+        <textarea
+          id="message"
+          rows="4"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="Schreibe hier den Grund deines Kontaktes rein..."
+        ></textarea>
+      </div>
+      <div class="flex items-start mb-6">
+        <div class="flex items-center h-5">
+          <input
+            id="remember"
+            type="checkbox"
+            value=""
+            class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+            required
+          />
+        </div>
+        <label for="remember" class="ml-2 text-sm font-medium text-gray-900"
+          >Ich habe den <a
+            href="#"
+            class="text-blue-600 hover:underline dark:text-blue-500"
+            >Datenschutzhinweis</a
+          > Schwimmvereins Haren e.V. gelesen und stimme der Weiterverarbeitung meiner
+          Daten für die Kontaktaufnahme zu.</label
+        >
+      </div>
+      <div data-netlify-recaptcha="true"></div>
+      <button
+        type="submit"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+        >Abschicken</button
+      >
+    </form>
+  </div>
+</Layout>
