@@ -36,7 +36,6 @@ import Layout from "../layouts/Layout.astro"
       action="/kontakt/?formSuccess"
       data-netlify="true"
       netlify-honeypot="bot-field"
-      data-netlify-recaptcha="true"
     >
       <label class="hidden">
         Fülle dieses Feld nicht aus, wenn du ein Mensch bist: <input
@@ -115,10 +114,9 @@ import Layout from "../layouts/Layout.astro"
           meiner Daten für die Kontaktaufnahme zu.</label
         >
       </div>
-      <div data-netlify-recaptcha="true"></div>
       <button
         type="submit"
-        class="mt-6 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center"
         >Abschicken</button
       >
     </form>
@@ -135,13 +133,5 @@ import Layout from "../layouts/Layout.astro"
       dismiss.hide()
       window.history.pushState({}, document.title, url.pathname)
     }, 2000)
-  }
-  window.onload = function () {
-    var recaptcha = document.forms["Kontakt"]["g-recaptcha-response"]
-    recaptcha.required = true
-    recaptcha.oninvalid = function (e) {
-      // do something
-      alert('Please check the box, "I\'m not a robot" in the reCaptcha below.')
-    }
   }
 </script>
