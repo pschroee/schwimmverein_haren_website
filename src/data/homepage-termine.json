@@ -3,10 +3,81 @@
     {
       "date": {
         "allDay": true,
+        "start": "December 17, 2018 5:00 PM",
+        "end": "December 18, 2018 5:00 PM"
+      },
+      "title": "2018",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": false,
         "start": "December 16, 2022 5:00 PM",
         "end": "December 17, 2022 5:00 PM"
       },
       "title": "Kreismeisterschaft Lange Strecke und Spatzenschwimmen",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "December 23, 2022 5:00 PM",
+        "end": "December 24, 2022 5:00 PM"
+      },
+      "title": "2022",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "December 23, 2022 5:00 PM",
+        "end": "December 24, 2022 5:00 PM"
+      },
+      "title": "2022",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "December 24, 2022 5:00 PM"
+      },
+      "title": "24",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": false,
+        "start": "December 23, 2022 0:00 AM",
+        "end": ""
+      },
+      "title": "25",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": false,
+        "start": "December 23, 2023 0:00 AM",
+        "end": ""
+      },
+      "title": "2023",
       "location": "Schwimmbad Haren",
       "link": "https://schwimmverein-haren.de",
       "externalLink": true,

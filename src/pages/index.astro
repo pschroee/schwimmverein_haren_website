@@ -5,10 +5,7 @@ import { internalNews, sidebarItems } from "../config"
 import { getPosts } from "../lib/facebook"
 import SingleNewsCard from "../components/SingleNewsCard.astro"
 import { markdown } from "@astropub/md"
-import TerminCard from "../components/TerminCard.astro"
-import termineJson from "../data/homepage-termine.json"
-
-const termine = termineJson.termine
+import TerminList from "../components/TerminList"
 
 const posts = await getPosts()
 ---
@@ -62,20 +59,7 @@ const posts = await getPosts()
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
     <h2 class="text-2xl sm:text-4xl font-bold">Termine</h2>
-    <!-- <ul class="grid gap-6 place-items-start">
-      {
-        termine.map((termin) => (
-          <TerminCard
-            title={termin.title}
-            image={termin.image}
-            date={termin.date}
-            location={termin.location}
-            link={termin.link}
-            externalLink={termin.externalLink}
-          />
-        ))
-      }
-    </ul> -->
+    <TerminList client:only="react" />
   </section>
   <section
     class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-12"
