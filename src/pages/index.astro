@@ -1,7 +1,7 @@
 ---
 import Toast from "../components/Toast.astro"
 import Layout from "../layouts/Layout.astro"
-import { internalNews, sidebarItems } from "../config"
+import { ankuendigungen, sidebarItems } from "../config"
 import { getPosts } from "../lib/facebook"
 import SingleNewsCard from "../components/SingleNewsCard.astro"
 import { markdown } from "@astropub/md"
@@ -21,33 +21,28 @@ const posts = await getPosts()
     class="col-start-2 xl:col-start-3 flex flex-wrap justify-center items-center gap-8 xl:justify-start xl:flex-col px-6 pb-6 md:pb-8 xl:py-8 sm:px-8 md:px-10 lg:px-2"
   >
     {
-      sidebarItems.map((item) =>
-        item.external ? (
-          <a href={item.href} rel="noopener nofollow" target="_blank">
-            <img
-              class="w-28 xl:w-32 h-auto"
-              src={item.image}
-              alt={item.title}
-            />
-          </a>
-        ) : (
-          <a href={item.href}>
-            <img
-              class="w-28 xl:w-32 h-auto"
-              src={item.image}
-              alt={item.title}
-            />
-          </a>
-        )
-      )
+      sidebarItems.map((item) => (
+        <a
+          href={item.href}
+          rel={item.external ? "noopener nofollow" : ""}
+          target={item.external ? "_blank" : "_self"}
+        >
+          <img class="w-28 xl:w-32 h-auto" src={item.image} alt={item.title} />
+        </a>
+      ))
     }
   </aside>
   <section
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
     {
-      internalNews.map((item) => (
-        <Toast title={item.title} body={item.body} href={item.href} />
+      ankuendigungen.map((item) => (
+        <Toast
+          title={item.title}
+          body={item.body}
+          href={item.href}
+          externalLink={item.externalLink}
+        />
       ))
     }
   </section>

@@ -3,10 +3,10 @@ export interface Props {
   title: string
   body: string
   href?: string
-  danger?: boolean
+  externalLink?: boolean
 }
 
-const { title, body, href, danger = true } = Astro.props as Props
+const { title, body, href, externalLink } = Astro.props as Props
 ---
 
 {
@@ -14,6 +14,8 @@ const { title, body, href, danger = true } = Astro.props as Props
     <a
       class="flex flex-col md:flex-row items-start md:items-center p-4 w-full max-w-screen-lg text-gray-800 bg-blue-200 hover:bg-blue-100 active:bg-blue-100 rounded-lg shadow"
       href={href}
+      rel={externalLink ? "noopener nofollow" : ""}
+      target={externalLink ? "_blank" : "_self"}
     >
       <div class="md:text-sm text-lg font-bold">{title}</div>
       <div class="md:ml-3 text-sm font-normal mt-1 md:mt-0">{body}</div>

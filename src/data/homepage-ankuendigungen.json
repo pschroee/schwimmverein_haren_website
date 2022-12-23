@@ -1,10 +1,11 @@
 {
-  "news": [
+  "ankuendigungen": [
     {
       "active": true,
       "title": "Whatsapp Infos",
       "body": "Wenn ihr aktuelle Infos zu den Wettkampfmannschaften haben wollt, dann geht einfach in die SV Haren Info Gruppe.",
-      "href": "http://sv-haren.info/"
+      "href": "http://sv-haren.info/",
+      "externalLink": true
     },
     {
       "active": true,
@@ -15,6 +16,7 @@
       "active": true,
       "title": "Übungsleiter:in gesucht!",
       "href": "/spezial/übungsleiter-in-gesucht/",
+      "externalLink": false,
       "body": "Wir suchen neue Übungsleiter. Für mehr Informationen auf diesem Beitrag klicken."
     }
   ]

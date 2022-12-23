@@ -10,17 +10,24 @@ collections:
   - name: "homepage"
     label: "Homepage"
     files:
-      - name: "news-website"
+      - name: "ankuendigungen"
         label: "Ankündigungen"
-        file: "src/data/homepage-news.json"
+        file: "src/data/homepage-ankuendigungen.json"
         fields:
           - label: "Ankündigungen"
-            name: "news"
+            name: "ankuendigungen"
             widget: "list"
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Inhalt, name: body, widget: text }
               - { label: Link, name: href, widget: string, required: false }
+              - {
+                  label: Externer Link,
+                  name: externalLink,
+                  widget: boolean,
+                  default: false,
+                  required: false,
+                }
               - {
                   label: "Aktiv",
                   name: "active",

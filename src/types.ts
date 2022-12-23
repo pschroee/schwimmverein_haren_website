@@ -12,11 +12,12 @@ export type SocialLinks = {
   instagram: string
 }
 
-export type SingleInternalNews = {
+export type SingelAnkuendigung = {
   active: boolean
   title: string
   body: string
   href?: string
+  externalLink?: boolean
 }
 
 export type SidebarItem = {
