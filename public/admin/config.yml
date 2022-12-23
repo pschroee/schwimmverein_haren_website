@@ -222,3 +222,28 @@ collections:
                   widget: boolean,
                   required: false,
                 }
+      - name: "cta"
+        label: "Call-to-Action"
+        file: "src/data/homepage-cta.json"
+        fields:
+          - { label: Titel, name: title, widget: string, required: true }
+          - { label: Text, name: text, widget: text }
+          - {
+              label: Button Text,
+              name: buttonText,
+              widget: string,
+              required: true,
+            }
+          - {
+              label: Button Link,
+              name: buttonLink,
+              widget: string,
+              required: true,
+            }
+          - {
+              label: "Button externer Link",
+              name: "buttonLinkExternal",
+              widget: "boolean",
+              default: false,
+              required: true,
+            }
