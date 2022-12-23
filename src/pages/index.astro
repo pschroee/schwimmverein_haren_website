@@ -4,6 +4,9 @@ import Layout from "../layouts/Layout.astro"
 import { internalNews, sidebarItems } from "../config"
 import { getPosts } from "../lib/facebook"
 import SingleNewsCard from "../components/SingleNewsCard.astro"
+import { markdown } from "@astropub/md"
+import TerminCard from "../components/TerminCard.astro"
+
 const posts = await getPosts()
 ---
 
@@ -48,18 +51,30 @@ const posts = await getPosts()
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
     <h2 class="text-2xl sm:text-4xl font-bold">News</h2>
-    <div class="grid grid-cols-2 gap-6 place-items-start">
+    <ul class="grid gap-6 place-items-start">
       {posts.map((item) => <SingleNewsCard item={item} />)}
-    </div>
+    </ul>
   </section>
   <section
-    class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-6"
+    class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
-    <h1
+    <h2 class="text-2xl sm:text-4xl font-bold">Termine</h2>
+    <ul class="grid gap-6 place-items-start">
+      <TerminCard />
+      <TerminCard />
+      <TerminCard />
+      <TerminCard />
+      <TerminCard />
+    </ul>
+  </section>
+  <section
+    class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-12"
+  >
+    <h2
       class="mb-4 text-2xl sm:text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
     >
       Wo kann ich mich anmelden?
-    </h1>
+    </h2>
     <p
       class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48"
     >
@@ -82,5 +97,28 @@ const posts = await getPosts()
           clip-rule="evenodd"></path>
       </svg>
     </a>
+  </section>
+  <section
+    class="max-w-screen-lg mx-auto mb-6 flex flex-col justify-center space-y-4"
+  >
+    <div
+      set:html={markdown(`
+
+Der Schwimmverein Haren wurde im Jahre 1982 gegründet und ist offiziell beim Landesschwimmverband Niedersachsen e.V. unter der Vereinsnummer 4035 registriert.
+Anmeldeformulare, Satzung und sonstige vereinsrelevante Dinge finden Sie im Bereich Downloads auf dieser Seite.
+Das Angebot im Schwimmverein ist sehr reichhaltig. Folgende Bereiche werden unterstützt und angeboten:
+
+-   [Wettkampfschwimmen](https://schwimmverein-haren.de/index.php?id=77)
+-   [Breitensport](https://schwimmverein-haren.de/index.php?id=76)
+-   Erwachsenenschwimmen
+-   [Aqua-Fitness und Wassergymnastik](https://schwimmverein-haren.de/index.php?id=96)
+-   Wassergewöhnung
+-   [Anfängerschwimmen Kinder](https://schwimmverein-haren.de/index.php?id=93)
+-   Außersportliche Jugendarbeit
+      `)}
+      class="format lg:format-lg max-w-full p-6 bg-gray-100 border border-gray-200 rounded-lg shadow-md"
+    >
+      <!-- <h2 class="text-2xl sm:text-4xl font-bold">Info</h2> -->
+    </div>
   </section>
 </Layout>
