@@ -11,6 +11,16 @@
       "link": "",
       "externalLink": false,
       "image": "/images/uploads/termine/tvmeppen.png"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "January 14, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Bezirksmeisterschaft lange Strecke",
+      "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
+      "location": "Hallenbad Haren"
     }
   ]
 }
