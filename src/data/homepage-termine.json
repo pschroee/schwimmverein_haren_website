@@ -20,7 +20,9 @@
       },
       "title": "Bezirksmeisterschaft lange Strecke",
       "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
-      "location": "Hallenbad Haren"
+      "location": "Hallenbad Haren",
+      "link": "https://www.bsv-weser-ems.de/schwimmen/wettkampf/einsatzbericht/401.html",
+      "externalLink": true
     },
     {
       "date": {
@@ -44,6 +46,30 @@
       "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
       "location": "Hallenbad Meppen",
       "link": "https://www.kreisschwimmverband-emsland.de/emsland_5611/2023/23kurzau.pdf",
+      "externalLink": true
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "March 11, 2023 12:00 AM",
+        "end": "March 12, 2023 12:00 AM"
+      },
+      "title": "Bezirksmeisterschaften -50 m Bahn- 2023",
+      "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
+      "location": "Sport- und Freizeitbad Nettebad",
+      "link": "https://www.bsv-weser-ems.de/schwimmen/wettkampf/einsatzbericht/403.html",
+      "externalLink": true
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "March 18, 2023 12:00 AM",
+        "end": "March 19, 2023 12:00 AM"
+      },
+      "title": "Bezirksmehrkampf 2023",
+      "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
+      "location": "-unbekannt-",
+      "link": "https://www.bsv-weser-ems.de/schwimmen/wettkampf/einsatzbericht/404.html",
       "externalLink": true
     },
     {
@@ -94,7 +120,8 @@
       },
       "title": "Kreismeisterschaften lange Strecke und 34. Emsländische Spatzenschwimmen",
       "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
-      "location": "Hallenbad Haren"
+      "location": "Hallenbad Haren",
+      "externalLink": false
     }
   ]
 }
