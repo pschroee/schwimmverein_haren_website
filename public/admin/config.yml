@@ -11,10 +11,10 @@ collections:
     label: "Homepage"
     files:
       - name: "news-website"
-        label: "Website News"
+        label: "Ankündigungen"
         file: "src/data/homepage-news.json"
         fields:
-          - label: "News"
+          - label: "Ankündigungen"
             name: "news"
             widget: "list"
             fields:
@@ -59,38 +59,6 @@ collections:
                   widget: "boolean",
                   default: true,
                 }
-      - name: "faqs"
-        label: "Faqs"
-        file: "src/data/homepage-faqs.json"
-        editor:
-          preview: false
-        fields:
-          - label: "Faqs"
-            name: "faqs"
-            widget: "list"
-            fields:
-              - { label: Titel, name: title, widget: string }
-              - { label: Text, name: text, widget: markdown }
-      - name: "downloads"
-        label: "Downloads"
-        file: "src/data/homepage-downloads.json"
-        media_folder: "/public/downloads"
-        public_folder: "/downloads"
-        editor:
-          preview: false
-        fields:
-          - label: "Downloads"
-            name: "downloads"
-            widget: "list"
-            fields:
-              - { label: Label, name: label, widget: string }
-              - label: "Datei"
-                name: "filename"
-                widget: "file"
-              - label: "Dateityp"
-                name: "filetype"
-                widget: "select"
-                options: ["pdf", "excel", "word", "image"]
       - name: "termine"
         label: "Termine"
         file: "src/data/homepage-termine.json"
@@ -255,3 +223,38 @@ collections:
         }
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "footer"
+    label: "Footer"
+    files:
+      - name: "faqs"
+        label: "Faqs"
+        file: "src/data/footer-faqs.json"
+        editor:
+          preview: false
+        fields:
+          - label: "Faqs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string }
+              - { label: Text, name: text, widget: markdown }
+      - name: "downloads"
+        label: "Downloads"
+        file: "src/data/footer-downloads.json"
+        media_folder: "/public/downloads"
+        public_folder: "/downloads"
+        editor:
+          preview: false
+        fields:
+          - label: "Downloads"
+            name: "downloads"
+            widget: "list"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - label: "Datei"
+                name: "filename"
+                widget: "file"
+              - label: "Dateityp"
+                name: "filetype"
+                widget: "select"
+                options: ["pdf", "excel", "word", "image"]
