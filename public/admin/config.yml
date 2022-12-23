@@ -139,6 +139,7 @@ collections:
         label: "Allgemeine Informationen"
         file: "src/data/homepage-allgemeineInfos.json"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown, required: true }
   - name: "ueberuns"
     label: "Über uns"
@@ -191,11 +192,13 @@ collections:
         label: "Mitgliedschaft"
         file: "src/pages/ueber-uns/mitgliedschaft.md"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown }
       - name: "vereinsmeister"
         label: "Vereinsmeister"
         file: "src/pages/ueber-uns/vereinsmeister.md"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown }
       - name: "protokolle"
         label: "Protokolle Jahreshauptversammlung"
@@ -221,6 +224,7 @@ collections:
         label: "Satzung"
         file: "src/pages/ueber-uns/satzung.md"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown }
   - name: "breitensport" # Used in routes, e.g., /admin/collections/blog
     label: "Breitensport" # Used in the UI
@@ -263,11 +267,13 @@ collections:
         label: "Impressum"
         file: "src/pages/impressum.md"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown }
       - name: "datenschutzerklaerung"
         label: "Datenschutzerklärung"
         file: "src/pages/datenschutzerklärung.md"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown }
       - name: "faqs"
         label: "Faqs"
@@ -285,6 +291,7 @@ collections:
         label: "Spenden"
         file: "src/pages/spenden.md"
         fields:
+          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown }
       - name: "downloads"
         label: "Downloads"
