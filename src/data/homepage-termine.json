@@ -39,6 +39,18 @@
     {
       "date": {
         "allDay": true,
+        "start": "February 11, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "DMS-Bezirksliga 2023",
+      "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
+      "location": "Hallenbad am Gymnasium Lohne",
+      "link": "https://www.bsv-weser-ems.de/schwimmen/wettkampf/einsatzbericht/402.html",
+      "externalLink": true
+    },
+    {
+      "date": {
+        "allDay": true,
         "start": "February 25, 2023 12:00 AM",
         "end": "February 26, 2023 12:00 AM"
       },
@@ -122,6 +134,26 @@
       "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
       "location": "Hallenbad Haren",
       "externalLink": false
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "September 23, 2023 12:00 AM",
+        "end": "September 24, 2023 12:00 AM"
+      },
+      "title": "Bezirksentscheid DMSJ",
+      "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
+      "location": "-unbekannt-"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "October 7, 2023 12:00 AM",
+        "end": "October 8, 2023 12:00 AM"
+      },
+      "title": "Bezirkskurzbahnmeisterschaften",
+      "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
+      "location": "-unbekannt-"
     }
   ]
 }
