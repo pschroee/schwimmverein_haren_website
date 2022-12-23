@@ -28,7 +28,7 @@ type Termin = {
   key: string
 }
 
-const nextMonthsFilterMin = 6
+const nextMonthsFilterMin = 3
 const nextMonthsFilterMax = 12
 
 type Props = {}
