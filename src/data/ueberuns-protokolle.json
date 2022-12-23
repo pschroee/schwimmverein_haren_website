@@ -1,7 +1,62 @@
 {
   "protokolle": [
     {
-      "label": "Jahr 2009",
+      "label": "Protokoll 2020",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2020.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2019",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2019.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2018",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2018.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2017",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2017.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2016",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2016.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2015",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2015.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2014",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2014.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2013",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2013.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2012",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2012.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2011",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2011.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2010",
+      "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2010.pdf",
+      "filetype": "pdf"
+    },
+    {
+      "label": "Protokoll 2009",
       "filename": "/downloads/protokolle/protokoll_der_jahreshauptversammlung_des_sv_haren_2009.pdf",
       "filetype": "pdf"
     }
