@@ -1,10 +1,9 @@
 ---
-title: "Impressum"
-layout: "../layouts/MarkdownLayout.astro"
+title: Impressum
+layout: ../layouts/MarkdownLayout.astro
 breadcrumb:
-  - title: "Impressum"
+  - title: Impressum
 ---
-
 Angaben im Sinne §5 TMG
 
 Schwimmverein Haren e.V.
