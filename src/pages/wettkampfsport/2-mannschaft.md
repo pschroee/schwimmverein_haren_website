@@ -2,10 +2,11 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: 2. Mannschaft
 breadcrumb:
-  - title: Breitensport
-    href: /breitensport/
+  - title: Wettkampfsport
+    href: /wettkampfsport/
   - title: 2. Mannschaft
 ---
+
 In der zweiten Mannschaft schwimmen bereits ältere und schnellere Kinder.
 
 Grundlagen der Stile sind gelegt. Und nun können Meter geschwommen werden, um Kondition zu bekommen. Auf den Turnieren werden längere Strecken geschwommen. Gleichzeitig werden höhere Anforderungen gestellt. Die Kinder entwickeln Ehrgeiz und die eine oder andere Landeszeit ist auch schon erreicht.

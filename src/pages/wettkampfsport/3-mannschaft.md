@@ -2,10 +2,11 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: 3. Mannschaft
 breadcrumb:
-  - title: Breitensport
-    href: /breitensport/
+  - title: Wettkampfsport
+    href: /wettkampfsport/
   - title: 3. Mannschaft
 ---
+
 In der dritten Mannschaft schwimmen die jüngsten Kinder unserer Abendgruppen.
 
 ![4 junge Schwimmer mit Brettern auf einer Bahn](/images/uploads/wettkampfsport/3.mannschaft-1_400x324.jpg)
