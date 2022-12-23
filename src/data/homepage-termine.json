@@ -40,7 +40,9 @@
       },
       "title": "Kreismeisterschaften kurze Strecken",
       "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
-      "location": "Hallenbad Meppen"
+      "location": "Hallenbad Meppen",
+      "link": "https://www.kreisschwimmverband-emsland.de/emsland_5611/2023/23kurzau.pdf",
+      "externalLink": true
     },
     {
       "date": {
