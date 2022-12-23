@@ -62,23 +62,22 @@ const TerminList = ({}: Props) => {
     setShowMin((prev) => !prev)
   }
 
-  const filteredTermineMin = termine
-    .filter((termin) =>
-      isWithinInterval(new Date(termin.date.start), {
-        start: startOfToday(),
-        end: addMonths(endOfToday(), nextMonthsFilterMin),
-      })
-    )
-    .sort((a, b) => compareAsc(new Date(a.date.start), new Date(b.date.start)))
+  const getFilteredTermineTo = (to: number) => {
+    return termine
+      .filter((termin) =>
+        isWithinInterval(new Date(termin.date.start), {
+          start: startOfToday(),
+          end: addMonths(endOfToday(), to),
+        })
+      )
+      .sort((a, b) =>
+        compareAsc(new Date(a.date.start), new Date(b.date.start))
+      )
+  }
 
-  const filteredTermineMax = termine
-    .filter((termin) =>
-      isWithinInterval(new Date(termin.date.start), {
-        start: startOfToday(),
-        end: addMonths(endOfToday(), nextMonthsFilterMax),
-      })
-    )
-    .sort((a, b) => compareAsc(new Date(a.date.start), new Date(b.date.start)))
+  const filteredTermineMin = getFilteredTermineTo(nextMonthsFilterMin)
+
+  const filteredTermineMax = getFilteredTermineTo(nextMonthsFilterMax)
 
   const filteredTermine = showMin ? filteredTermineMin : filteredTermineMax
 
