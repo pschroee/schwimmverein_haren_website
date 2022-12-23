@@ -228,6 +228,7 @@ collections:
     public_folder: "/images/uploads/breitensport"
     folder: "src/pages/breitensport" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
+    delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {
@@ -244,6 +245,7 @@ collections:
     public_folder: "/images/uploads/wettkampfsport"
     folder: "src/pages/wettkampfsport" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
+    delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {
