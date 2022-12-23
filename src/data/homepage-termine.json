@@ -35,12 +35,62 @@
     {
       "date": {
         "allDay": true,
+        "start": "February 25, 2023 12:00 AM",
+        "end": "February 26, 2023 12:00 AM"
+      },
+      "title": "Kreismeisterschaften kurze Strecken",
+      "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
+      "location": "Hallenbad Meppen"
+    },
+    {
+      "date": {
+        "allDay": true,
         "start": "June 10, 2023 12:00 AM",
         "end": "June 11, 2023 12:00 AM"
       },
       "title": "Sommerschwimmfest Haselünne",
       "image": "/images/uploads/termine/haselünner-sportverein.png",
       "location": "Freibad Haselünne"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "August 26, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Schwimmfest SV Concordia Emsbüren",
+      "image": "/images/uploads/termine/sv-concorida-emsbüren.png",
+      "location": "Hallenbad Emsbüren"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "September 9, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Kreismeisterschaften Sprint",
+      "location": "Hallenbad Twist",
+      "image": "/images/uploads/termine/kreisschwimmverband-emsland.png"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "November 25, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Kreismehrkampf",
+      "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
+      "location": "Hallenbad Haselünne"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "December 9, 2023 12:00 AM",
+        "end": "December 10, 2023 12:00 AM"
+      },
+      "title": "Kreismeisterschaften lange Strecke und 34. Emsländische Spatzenschwimmen",
+      "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
+      "location": "Hallenbad Haren"
     }
   ]
 }
