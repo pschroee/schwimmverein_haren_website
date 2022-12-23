@@ -107,70 +107,6 @@ collections:
                 name: "filetype"
                 widget: "select"
                 options: ["pdf", "excel", "word", "image"]
-      - name: "protokolle"
-        label: "Protokolle Jahreshauptversammlung"
-        file: "src/data/ueberuns-protokolle.json"
-        media_folder: "/public/downloads/protokolle"
-        public_folder: "/downloads/protokolle"
-        editor:
-          preview: false
-        fields:
-          - label: "Protokolle Jahreshauptversammlung"
-            name: "protokolle"
-            widget: "list"
-            fields:
-              - { label: Label, name: label, widget: string }
-              - label: "Datei"
-                name: "filename"
-                widget: "file"
-              - label: "Dateityp"
-                name: "filetype"
-                widget: "select"
-                options: ["pdf", "excel", "word", "image"]
-      - name: "ansprechpartner"
-        label: "Ansprechpartner"
-        file: "src/data/ueberuns-ansprechpartner.json"
-        media_folder: "/public/images/uploads/ansprechpartner"
-        public_folder: "/images/uploads/ansprechpartner"
-        editor:
-          preview: false
-        fields:
-          - label: "Ansprechpartner"
-            name: "ansprechpartner"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string, required: true }
-              - { label: Bild, name: image, widget: image, required: true }
-              - {
-                  label: Funktion,
-                  name: function,
-                  widget: string,
-                  required: true,
-                }
-              - { label: E-Mail, name: email, widget: string, required: false }
-              - { label: Telefon, name: phone, widget: string, required: false }
-      - name: "trainerundbetreuer"
-        label: "Trainer & Betreuer"
-        file: "src/data/ueberuns-trainerundbetreuer.json"
-        media_folder: "/public/images/uploads/trainerundbetreuer"
-        public_folder: "/images/uploads/trainerundbetreuer"
-        editor:
-          preview: false
-        fields:
-          - label: "Trainer & Betreuer"
-            name: "trainerundbetreuer"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string, required: true }
-              - { label: Bild, name: image, widget: image, required: true }
-              - {
-                  label: Funktion,
-                  name: function,
-                  widget: string,
-                  required: true,
-                }
-              - { label: E-Mail, name: email, widget: string, required: false }
-              - { label: Telefon, name: phone, widget: string, required: false }
       - name: "termine"
         label: "Termine"
         file: "src/data/homepage-termine.json"
@@ -252,3 +188,70 @@ collections:
         file: "src/data/homepage-allgemeineInfos.json"
         fields:
           - { label: Inhalt, name: body, widget: markdown, required: true }
+  - name: "ueberuns"
+    label: "Über uns"
+    files:
+      - name: "ansprechpartner"
+        label: "Ansprechpartner"
+        file: "src/data/ueberuns-ansprechpartner.json"
+        media_folder: "/public/images/uploads/ansprechpartner"
+        public_folder: "/images/uploads/ansprechpartner"
+        editor:
+          preview: false
+        fields:
+          - label: "Ansprechpartner"
+            name: "ansprechpartner"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string, required: true }
+              - { label: Bild, name: image, widget: image, required: true }
+              - {
+                  label: Funktion,
+                  name: function,
+                  widget: string,
+                  required: true,
+                }
+              - { label: E-Mail, name: email, widget: string, required: false }
+              - { label: Telefon, name: phone, widget: string, required: false }
+      - name: "trainerundbetreuer"
+        label: "Trainer & Betreuer"
+        file: "src/data/ueberuns-trainerundbetreuer.json"
+        media_folder: "/public/images/uploads/trainerundbetreuer"
+        public_folder: "/images/uploads/trainerundbetreuer"
+        editor:
+          preview: false
+        fields:
+          - label: "Trainer & Betreuer"
+            name: "trainerundbetreuer"
+            widget: "list"
+            fields:
+              - { label: Name, name: name, widget: string, required: true }
+              - { label: Bild, name: image, widget: image, required: true }
+              - {
+                  label: Funktion,
+                  name: function,
+                  widget: string,
+                  required: true,
+                }
+              - { label: E-Mail, name: email, widget: string, required: false }
+              - { label: Telefon, name: phone, widget: string, required: false }
+      - name: "protokolle"
+        label: "Protokolle Jahreshauptversammlung"
+        file: "src/data/ueberuns-protokolle.json"
+        media_folder: "/public/downloads/protokolle"
+        public_folder: "/downloads/protokolle"
+        editor:
+          preview: false
+        fields:
+          - label: "Protokolle Jahreshauptversammlung"
+            name: "protokolle"
+            widget: "list"
+            fields:
+              - { label: Label, name: label, widget: string }
+              - label: "Datei"
+                name: "filename"
+                widget: "file"
+              - label: "Dateityp"
+                name: "filetype"
+                widget: "select"
+                options: ["pdf", "excel", "word", "image"]
