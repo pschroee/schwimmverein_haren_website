@@ -226,6 +226,16 @@ collections:
   - name: "footer"
     label: "Footer"
     files:
+      - name: "impressum"
+        label: "Impressum"
+        file: "src/pages/impressum.md"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
+      - name: "datenschutzerklaerung"
+        label: "Datenschutzerklärung"
+        file: "src/pages/datenschutzerklärung.md"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
       - name: "faqs"
         label: "Faqs"
         file: "src/data/footer-faqs.json"
@@ -238,6 +248,11 @@ collections:
             fields:
               - { label: Titel, name: title, widget: string }
               - { label: Text, name: text, widget: markdown }
+      - name: "spenden"
+        label: "Spenden"
+        file: "src/pages/spenden.md"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
       - name: "downloads"
         label: "Downloads"
         file: "src/data/footer-downloads.json"
