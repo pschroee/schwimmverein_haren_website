@@ -5,5 +5,10 @@
     "buttonText": "Erfahre mehr",
     "buttonLink": "/ueber-uns/mitgliedschaft/",
     "buttonLinkExternal": false
-  }
+  },
+  "title": "Wo kann ich mich anmelden?",
+  "text": "Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
+  "buttonLinkExternal": false,
+  "buttonText": "Erfahre mehr",
+  "buttonLink": "/ueber-uns/mitgliedschaft/"
 }
