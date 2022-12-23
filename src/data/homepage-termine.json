@@ -21,6 +21,26 @@
       "title": "Bezirksmeisterschaft lange Strecke",
       "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
       "location": "Hallenbad Haren"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "February 5, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Nachwuchs Schwimmfest Datum",
+      "image": "/images/uploads/termine/wasserfreunde-dalum.png",
+      "location": "Hallenbad Dalum"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "June 10, 2023 12:00 AM",
+        "end": "June 11, 2023 12:00 AM"
+      },
+      "title": "Sommerschwimmfest Haselünne",
+      "image": "/images/uploads/termine/haselünner-sportverein.png",
+      "location": "Freibd Haselünne"
     }
   ]
 }
