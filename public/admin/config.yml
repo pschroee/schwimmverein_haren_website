@@ -187,6 +187,16 @@ collections:
                 }
               - { label: E-Mail, name: email, widget: string, required: false }
               - { label: Telefon, name: phone, widget: string, required: false }
+      - name: "mitgliedschaft"
+        label: "Mitgliedschaft"
+        file: "src/pages/ueber-uns/mitgliedschaft.md"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
+      - name: "vereinsmeister"
+        label: "Vereinsmeister"
+        file: "src/pages/ueber-uns/vereinsmeister.md"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
       - name: "protokolle"
         label: "Protokolle Jahreshauptversammlung"
         file: "src/data/ueberuns-protokolle.json"
@@ -207,6 +217,11 @@ collections:
                 name: "filetype"
                 widget: "select"
                 options: ["pdf", "excel", "word", "image"]
+      - name: "satzung"
+        label: "Satzung"
+        file: "src/pages/ueber-uns/satzung.md"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown }
   - name: "wettkampfsport" # Used in routes, e.g., /admin/collections/blog
     label: "Wettkampfsport" # Used in the UI
     media_folder: "/public/images/uploads/wettkampfsport"
