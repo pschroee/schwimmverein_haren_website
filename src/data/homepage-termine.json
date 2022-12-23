@@ -3,13 +3,13 @@
     {
       "date": {
         "allDay": true,
-        "start": "December 17, 2018 5:00 PM",
-        "end": "December 18, 2018 5:00 PM"
+        "start": "January 7, 2023 5:00 PM",
+        "end": ""
       },
-      "title": "2018",
-      "location": "Schwimmbad Haren",
-      "link": "https://schwimmverein-haren.de",
-      "externalLink": true,
+      "title": "31. Internationale Neujahrsschwimmen TV Meppen",
+      "location": "Hallenbad Meppen",
+      "link": "",
+      "externalLink": false,
       "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
     },
     {
