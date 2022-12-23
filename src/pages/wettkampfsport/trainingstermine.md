@@ -2,8 +2,8 @@
 title: "Trainingstermine"
 layout: "../../layouts/MarkdownLayout.astro"
 breadcrumb:
-  - title: "Breitensport"
-    href: "/breitensport/"
+  - title: Wettkampfsport
+    href: /wettkampfsport/
   - title: "Trainingstermine"
 ---
 
