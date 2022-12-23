@@ -1,3 +1,16 @@
 {
-  "termine": []
+  "termine": [
+    {
+      "date": {
+        "allDay": true,
+        "start": "December 16, 2022 5:00 PM",
+        "end": "December 17, 2022 5:00 PM"
+      },
+      "title": "Kreismeisterschaft Lange Strecke und Spatzenschwimmen",
+      "location": "Schwimmbad Haren",
+      "link": "https://schwimmverein-haren.de",
+      "externalLink": true,
+      "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    }
+  ]
 }
