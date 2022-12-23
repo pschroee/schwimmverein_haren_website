@@ -7,8 +7,10 @@ import SingleNewsCard from "../components/SingleNewsCard.astro"
 import { markdown } from "@astropub/md"
 import TerminList from "../components/TerminList"
 import ctaJson from "../data/homepage-cta.json"
+import allgemeineInfosJson from "../data/homepage-allgemeineInfos.json"
 
 const cta = ctaJson
+const allgemeineInfos = allgemeineInfosJson
 const posts = await getPosts()
 ---
 
@@ -99,23 +101,12 @@ const posts = await getPosts()
     class="max-w-screen-lg mx-auto mb-6 flex flex-col justify-center space-y-4"
   >
     <div
-      set:html={markdown(`
-
-Der Schwimmverein Haren wurde im Jahre 1982 gegründet und ist offiziell beim Landesschwimmverband Niedersachsen e.V. unter der Vereinsnummer 4035 registriert.
-Anmeldeformulare, Satzung und sonstige vereinsrelevante Dinge finden Sie im Bereich Downloads auf dieser Seite.
-Das Angebot im Schwimmverein ist sehr reichhaltig. Folgende Bereiche werden unterstützt und angeboten:
-
--   [Wettkampfschwimmen](https://schwimmverein-haren.de/index.php?id=77)
--   [Breitensport](https://schwimmverein-haren.de/index.php?id=76)
--   Erwachsenenschwimmen
--   [Aqua-Fitness und Wassergymnastik](https://schwimmverein-haren.de/index.php?id=96)
--   Wassergewöhnung
--   [Anfängerschwimmen Kinder](https://schwimmverein-haren.de/index.php?id=93)
--   Außersportliche Jugendarbeit
-      `)}
+      set:html={markdown(allgemeineInfos.body)}
       class="format lg:format-lg max-w-full p-6 bg-gray-100 border border-gray-200 rounded-lg shadow-md"
     >
-      <!-- <h2 class="text-2xl sm:text-4xl font-bold">Info</h2> -->
+      <h2 class="text-2xl sm:text-4xl font-bold hidden">
+        Allgemeine Informationen
+      </h2>
     </div>
   </section>
 </Layout>

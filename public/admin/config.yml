@@ -247,3 +247,8 @@ collections:
               default: false,
               required: true,
             }
+      - name: "allgemeineInfos"
+        label: "Allgemeine Informationen"
+        file: "src/data/homepage-allgemeineInfos.json"
+        fields:
+          - { label: Inhalt, name: body, widget: markdown, required: true }
