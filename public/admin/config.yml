@@ -171,3 +171,53 @@ collections:
                 }
               - { label: E-Mail, name: email, widget: string, required: false }
               - { label: Telefon, name: phone, widget: string, required: false }
+      - name: "termine"
+        label: "Termine"
+        file: "src/data/homepage-termine.json"
+        media_folder: "/public/images/uploads/termine"
+        public_folder: "/images/uploads/termine"
+        editor:
+          preview: false
+        fields:
+          - label: "Termine"
+            name: "termine"
+            widget: "list"
+            fields:
+              - { label: Titel, name: title, widget: string, required: true }
+              - { label: Bild, name: image, widget: image, required: true }
+              - label: "Profile"
+                name: "profile"
+                widget: "object"
+                summary: "{{fields.name}}: {{fields.birthdate}}"
+                required: true
+                fields:
+                  - {
+                      label: "Ganztägig",
+                      name: "allDay",
+                      widget: "boolean",
+                      default: true,
+                    }
+                  - label: "Startzeitpunkt"
+                    name: "start"
+                    widget: "datetime"
+                    default: ""
+                    date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+                    time_format: "HH:mm" # e.g. 21:07
+                    format: "LLL"
+                    picker_utc: false
+                  - label: "Endzeitpunkt"
+                    name: "end"
+                    widget: "datetime"
+                    default: ""
+                    date_format: "DD.MM.YYYY" # e.g. 24.12.2021
+                    time_format: "HH:mm" # e.g. 21:07
+                    format: "LLL"
+                    picker_utc: false
+              - { label: Ort, name: location, widget: string, required: true }
+              - { label: Link, name: link, widget: string, required: false }
+              - {
+                  label: Externer Link,
+                  name: externalLink,
+                  widget: boolean,
+                  required: false,
+                }
