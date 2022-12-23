@@ -2,20 +2,14 @@
   "news": [
     {
       "active": true,
-      "title": "24h Schwimmen 2022",
-      "body": "Es ist wieder soweit! Das 24h Schwimmen findet dieses Jahr wieder am 16./17. Dezember 2022 statt.",
-      "href": "https://test.schwimmverein-haren.de/24h-schwimmen/anmeldung/"
+      "title": "Whatsapp Infos",
+      "body": "Wenn ihr aktuelle Infos zu den Wettkampfmannschaften haben wollt, dann geht einfach in die SV Haren Info Gruppe.",
+      "href": "https://sv-haren.info/"
     },
     {
       "active": true,
       "title": "Vereinsmeisterschaft",
       "body": "Am 5. März 2023 findet unser nächste Vereinsmeisterschaft statt. Bitte den Termin schon vormerken!"
-    },
-    {
-      "active": true,
-      "title": "Trainingstermine",
-      "body": "Achtung! Es gibt neue Trainingstermine ab Oktober 2022.",
-      "href": "https://schwimmverein-haren.de/index.php?id=105"
     }
   ]
 }
