@@ -51,6 +51,18 @@
     {
       "date": {
         "allDay": true,
+        "start": "February 18, 2023 12:00 AM",
+        "end": "February 19, 2023 12:00 AM"
+      },
+      "title": "Landesmeisterschaften & Norddeutsche Meisterschaften lange Strecke",
+      "image": "/images/uploads/termine/landesschwimmverband-niedersachsen.png",
+      "location": "Braunschweig - Sportbad Heidberg",
+      "link": "https://www.lsn-info.de/leistungssport/schwimmen/termine/details/lsn-landesmeisterschaften-lange-strecke-2023-3819/",
+      "externalLink": true
+    },
+    {
+      "date": {
+        "allDay": true,
         "start": "February 25, 2023 12:00 AM",
         "end": "February 26, 2023 12:00 AM"
       },
@@ -82,6 +94,30 @@
       "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
       "location": "-unbekannt-",
       "link": "https://www.bsv-weser-ems.de/schwimmen/wettkampf/einsatzbericht/404.html",
+      "externalLink": true
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "April 15, 2023 12:00 AM",
+        "end": "April 16, 2023 12:00 AM"
+      },
+      "title": "LSN Landesmeisterschaften offen 2023",
+      "image": "/images/uploads/termine/landesschwimmverband-niedersachsen.png",
+      "location": "Hannover- Stadionbad",
+      "link": "https://www.lsn-info.de/leistungssport/schwimmen/termine/details/lsn-landesmeisterschaften-offen-2023-3820/",
+      "externalLink": true
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "April 22, 2023 12:00 AM",
+        "end": "April 23, 2023 12:00 AM"
+      },
+      "title": " LSN Landes-Jahrgangsmeisterschaften 2023",
+      "image": "/images/uploads/termine/landesschwimmverband-niedersachsen.png",
+      "location": "Hannover- Stadionbad",
+      "link": "https://www.lsn-info.de/leistungssport/schwimmen/termine/details/lsn-landes-jahrgangsmeisterschaften-2023-3821/",
       "externalLink": true
     },
     {
@@ -153,7 +189,8 @@
       },
       "title": "Bezirkskurzbahnmeisterschaften",
       "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
-      "location": "-unbekannt-"
+      "location": "-unbekannt-",
+      "externalLink": false
     }
   ]
 }
