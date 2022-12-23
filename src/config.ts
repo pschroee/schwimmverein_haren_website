@@ -54,11 +54,6 @@ export const NAVITEMS: NavItems = [
     ],
   },
   {
-    title: "Fotos",
-    href: "http://galerie.schwimmverein-haren.de",
-    external: true,
-  },
-  {
     title: "24h Schwimmen",
     href: "/24h-schwimmen/",
     subnav: [
@@ -102,6 +97,11 @@ export const FOOTERITEMS: NavItems = [
   {
     title: "Downloads",
     href: "/downloads/",
+  },
+  {
+    title: "Fotos",
+    href: "http://galerie.schwimmverein-haren.de",
+    external: true,
   },
 ]
 

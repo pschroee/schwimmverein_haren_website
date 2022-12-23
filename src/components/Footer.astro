@@ -7,7 +7,12 @@ const now = new Date()
   <div class="max-w-screen-xl mx-auto flex justify-center gap-8 flex-wrap">
     {
       FOOTERITEMS.map((item) => (
-        <a href={item.href} class="text-gray-600 hover:underline">
+        <a
+          href={item.href}
+          class="text-gray-600 hover:underline"
+          rel={item.external ? "noreferrer noopener" : ""}
+          target={item.external ? "_blank" : "_self"}
+        >
           {item.title}
         </a>
       ))
