@@ -23,7 +23,7 @@ export const NAVITEMS: NavItems = [
       { title: "Mitgliedschaft", href: "/ueber-uns/mitgliedschaft/" },
       { title: "Vereinsmeister", href: "/ueber-uns/vereinsmeister/" },
       {
-        title: "Protokolle Jahreshauptversammlung/",
+        title: "Protokolle Jahreshauptversammlung",
         href: "/ueber-uns/protokolle-jahreshauptversammlung/",
       },
       { title: "Satzung", href: "/ueber-uns/satzung/" },
