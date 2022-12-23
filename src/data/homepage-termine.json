@@ -8,8 +8,8 @@
       },
       "title": "31. Internationales Neujahrsschwimmen TV Meppen",
       "location": "Hallenbad Meppen",
-      "link": "",
-      "externalLink": false,
+      "link": "https://www.kreisschwimmverband-emsland.de/emsland_5611/2023/23tvmeau.pdf",
+      "externalLink": true,
       "image": "/images/uploads/termine/tvmeppen.png"
     },
     {
@@ -30,7 +30,9 @@
       },
       "title": "Nachwuchsschwimmfest Dalum",
       "image": "/images/uploads/termine/wasserfreunde-dalum.png",
-      "location": "Hallenbad Dalum"
+      "location": "Hallenbad Dalum",
+      "link": "https://www.kreisschwimmverband-emsland.de/emsland_5611/2023/23daluau.pdf",
+      "externalLink": true
     },
     {
       "date": {
