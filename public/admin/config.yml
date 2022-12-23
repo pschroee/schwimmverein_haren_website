@@ -185,8 +185,8 @@ collections:
             fields:
               - { label: Titel, name: title, widget: string, required: true }
               - { label: Bild, name: image, widget: image, required: true }
-              - label: "Profile"
-                name: "profile"
+              - label: "Datum"
+                name: "date"
                 widget: "object"
                 summary: "{{fields.name}}: {{fields.birthdate}}"
                 required: true
