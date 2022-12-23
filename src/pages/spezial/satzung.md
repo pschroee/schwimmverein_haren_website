@@ -1,8 +1,5 @@
 ---
-title: "Satzung"
-layout: "../../layouts/MarkdownLayout.astro"
+layout: ../../layouts/MarkdownLayout.astro
+title: Übungsleiter:in gesucht!
 ---
-
-## Test
-
-Das ist ein Test
+![Suche Übungsleiter:in Plakat](/images/uploads/spezial/suche-übungsleiter.jpeg)
