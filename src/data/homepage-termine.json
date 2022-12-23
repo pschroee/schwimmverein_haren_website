@@ -51,7 +51,8 @@
     {
       "date": {
         "allDay": true,
-        "start": "December 24, 2022 5:00 PM"
+        "start": "December 24, 2022 5:00 PM",
+        "end": ""
       },
       "title": "24",
       "location": "Schwimmbad Haren",
@@ -82,6 +83,16 @@
       "link": "https://schwimmverein-haren.de",
       "externalLink": true,
       "image": "https://kita-kiste.com/wp-content/uploads/Hallo-Nikolaus-icon-600x600.jpg"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "December 23, 2022 6:38 PM",
+        "end": ""
+      },
+      "image": "https://images.vexels.com/media/users/3/127856/isolated/preview/d7b666e9823c6dda5fed99b4e5668ccb-gruener-flacher-weihnachtsbaum.png",
+      "title": "Test Test Test",
+      "location": "Zuhause"
     }
   ]
 }
