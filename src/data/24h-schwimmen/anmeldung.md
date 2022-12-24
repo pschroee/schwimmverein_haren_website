@@ -6,7 +6,7 @@ draft: false
 
 Wir freuen uns, euch mitteilen zu können, dass auch 2022 wieder ein 24-Stunden-Schwimmen stattfindet.
 
-![24h Schwimmen Plakat](/images/uploads/24h-schwimmen/24h-schwimmen-plakat-2022.jpg)
+![24h Schwimmen Plakat](/images/uploads/24h-schwimmen/24h-schwimmen-plakat-2022.jpeg)
 
 ## Was soll das und worum geht es?
 
