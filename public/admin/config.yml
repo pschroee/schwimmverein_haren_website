@@ -267,6 +267,17 @@ collections:
         }
       - { label: "Titel", name: "title", widget: "string" }
       - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "24h-schwimmen" # Used in routes, e.g., /admin/collections/blog
+    label: "24h Schwimmen" # Used in the UI
+    media_folder: "/public/images/uploads/24h-schwimmen"
+    public_folder: "/images/uploads/24h-schwimmen"
+    folder: "src/data/24h-schwimmen" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    delete: true
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
   - name: "footer"
     label: "Footer"
     files:

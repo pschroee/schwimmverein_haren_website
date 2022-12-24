@@ -1,0 +1,33 @@
+---
+import Heading1 from "../../components/Base/heading1.astro"
+import Layout from "../../layouts/Layout.astro"
+
+export async function getStaticPaths() {
+  const GithubSlugger = (await import("github-slugger")).default
+  const slugger = new GithubSlugger()
+  const items = await Astro.glob("../../data/24h-schwimmen/*.md")
+
+  return items.map((post) => {
+    const slug = slugger.slug(post.frontmatter.title)
+    return {
+      params: {
+        slug: slug,
+      },
+      props: {
+        post: post,
+      },
+    }
+  })
+}
+
+const { compiledContent } = Astro.props.post
+const title = Astro.props.post.frontmatter.title
+const breadcrumbs = [{ title: "Über uns", href: "/ueber-uns/" }, { title }]
+---
+
+<Layout title="Ansprechpartner" breadcrumb={breadcrumbs}>
+  <div class="max-w-screen-lg mx-auto format">
+    <Heading1>{title}</Heading1>
+    <Fragment set:html={compiledContent()} />
+  </div>
+</Layout>

@@ -52,24 +52,6 @@ export const NAVITEMS: NavItems = [
       { title: "Trainingstermine", href: "/wettkampfsport/trainingstermine/" },
     ],
   },
-  {
-    title: "24h Schwimmen",
-    href: "/24h-schwimmen/",
-    subnav: [
-      { title: "Anmeldung", href: "/24h-schwimmen/anmeldung/" },
-      { title: "2019", href: "/24h-schwimmen/2019/" },
-      { title: "2017", href: "/24h-schwimmen/2017/" },
-      { title: "2015", href: "/24h-schwimmen/2015/" },
-      { title: "2013", href: "/24h-schwimmen/2013/" },
-      { title: "2011", href: "/24h-schwimmen/2011/" },
-      { title: "2009", href: "/24h-schwimmen/2009/" },
-      { title: "2008", href: "/24h-schwimmen/2008/" },
-      { title: "2007", href: "/24h-schwimmen/2007/" },
-      { title: "2006", href: "/24h-schwimmen/2006/" },
-      { title: "2005", href: "/24h-schwimmen/2005/" },
-      { title: "2004", href: "/24h-schwimmen/2004/" },
-    ],
-  },
 ]
 
 export const FOOTERITEMS: NavItems = [

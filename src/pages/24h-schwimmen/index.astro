@@ -1,0 +1,34 @@
+---
+const title = "24h Schwimmen"
+
+let pathname = new URL(Astro.request.url).pathname
+if (pathname[pathname.length - 1] != "/") {
+  pathname = pathname + "/"
+}
+import Layout from "../../layouts/Layout.astro"
+import { NAVITEMS } from "../../config"
+import Heading1 from "../../components/Base/heading1.astro"
+const navItem = NAVITEMS.find((item) => item.href == pathname)
+---
+
+<Layout title={title} breadcrumb={[{ title }]}>
+  <section class="flex flex-col max-w-screen-lg mx-auto">
+    <Heading1 class="mb-4">{title}</Heading1>
+    <div class="grid grid-cols-1 gap-2 lg:grid-cols-2 md:gap-4">
+      {
+        navItem.subnav.map((item) => (
+          <a
+            href={item.href}
+            class="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+            rel={item?.external ? "noreferrer noopener" : ""}
+            target={item?.external ? "_blank" : "_self"}
+          >
+            <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {item.title}
+            </h5>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
