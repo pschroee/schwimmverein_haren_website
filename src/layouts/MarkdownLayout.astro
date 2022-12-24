@@ -46,13 +46,7 @@ markdownHeadings = [{ title, href: "" }, ...markdownHeadings]
     <Scripts />
 
     <style is:global>
-      html {
-        scroll-behavior: smooth;
-      }
-      /*TODO: Scroll Margins nochmal genau anpassen */
-      main article h2 {
-        scroll-margin-top: 3em;
-      }
+      /* Break anchor in markdown */
       main article a {
         /* These are technically the same, but use both */
         overflow-wrap: break-word;
