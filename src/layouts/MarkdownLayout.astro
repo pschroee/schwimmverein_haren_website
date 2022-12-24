@@ -31,11 +31,8 @@ markdownHeadings = [{ title, href: "" }, ...markdownHeadings]
       <article
         class="max-w-screen-lg mx-auto format lg:format-lg format-sm sm:format-base flex"
       >
-        <div>
-          <h1>{title}</h1>
-          <slot />
-        </div>
-        <div></div>
+        <h1>{title}</h1>
+        <slot />
       </article>
     </main>
 
