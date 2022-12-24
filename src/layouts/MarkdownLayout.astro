@@ -28,7 +28,7 @@ markdownHeadings = [{ title, href: "" }, ...markdownHeadings]
       breadcrumb={breadcrumb}
       class="px-4 sm:px-6 md:px-4 lg:px-2 xl:px-0"
     />
-    <main class="px-6 py-6 md:py-8 sm:px-8 md:px-10 xl:px-0">
+    <main class="px-6 py-6 md:py-8 sm:px-8 md:px-10 xl:px-0 overflow-x-auto">
       <article class="max-w-screen-lg mx-auto format">
         <Heading1>{title}</Heading1>
         <slot />
@@ -39,6 +39,13 @@ markdownHeadings = [{ title, href: "" }, ...markdownHeadings]
     <Scripts />
 
     <style is:global>
+      .responsive-table {
+        @apply mt-8 mb-8 overflow-x-auto;
+      }
+      .responsive-table table {
+        @apply mt-0 mb-0;
+      }
+
       /* Break anchor in markdown */
       main article a {
         /* These are technically the same, but use both */

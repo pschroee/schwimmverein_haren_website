@@ -36,7 +36,7 @@ const { title, breadcrumb, showBanner = false } = Astro.props
     <div id="wrapper">
       <slot name="sidebar" />
       <main
-        class={`col-start-2 row-start-1 px-6 py-6 md:py-8 sm:px-8 md:px-10 lg:px-2 xl:px-0${
+        class={`col-start-2 row-start-1 px-6 py-6 md:py-8 sm:px-8 md:px-10 lg:px-2 xl:px-0 overflow-x-auto${
           Astro.props.class ? " " + Astro.props.class : ""
         }`}
       >
@@ -49,6 +49,14 @@ const { title, breadcrumb, showBanner = false } = Astro.props
       #wrapper {
         display: grid;
         grid-template-columns: 1fr minmax(auto, 1024px) 1fr;
+      }
+    </style>
+    <style is:global>
+      .responsive-table {
+        @apply mt-8 mb-8 overflow-x-auto;
+      }
+      .responsive-table table {
+        @apply mt-0 mb-0;
       }
     </style>
   </body>
