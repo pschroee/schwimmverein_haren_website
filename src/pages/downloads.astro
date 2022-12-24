@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro"
 import DownloadItem from "../components/DownloadItem.astro"
 import { FileTypeIcon } from "../types"
 import downloadsJson from "../data/footer-downloads.json"
+import Heading1 from "../components/Base/heading1.astro"
 const downloadItems = downloadsJson.downloads as {
   filename: string
   filetype: FileTypeIcon
@@ -12,9 +13,7 @@ const downloadItems = downloadsJson.downloads as {
 
 <Layout title="FAQ" breadcrumb={[{ title: "FAQ" }]}>
   <div class="max-w-screen-lg mx-auto">
-    <h1 class="col-span-2 mb-6 text-2xl sm:text-4xl font-bold text-gray-800">
-      Downloads
-    </h1>
+    <Heading1 class="col-span-2 mb-6">Downloads</Heading1>
     {
       downloadItems.length > 0 && (
         <ul class="space-y-2">

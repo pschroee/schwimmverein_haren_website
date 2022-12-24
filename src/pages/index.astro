@@ -49,7 +49,7 @@ const posts = await getPosts()
   <section
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
-    <h2 class="text-2xl sm:text-4xl font-bold">News</h2>
+    <h2 class="text-4xl font-extrabold">News</h2>
     <ul class="grid gap-6 place-items-start">
       {posts.map((item) => <SingleNewsCard item={item} />)}
     </ul>
@@ -57,14 +57,14 @@ const posts = await getPosts()
   <section
     class="max-w-screen-lg mx-auto mb-12 flex flex-col justify-center space-y-4"
   >
-    <h2 class="text-2xl sm:text-4xl font-bold">Termine</h2>
+    <h2 class="text-4xl font-extrabold">Termine</h2>
     <TerminList client:only="react" />
   </section>
   <section
     class="flex flex-col items-center max-w-screen-lg mx-auto text-center mb-12"
   >
     <h2
-      class="mb-4 text-2xl sm:text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
+      class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl"
     >
       {cta.title}
     </h2>
@@ -97,11 +97,9 @@ const posts = await getPosts()
   >
     <div
       set:html={markdown(allgemeineInfos.body)}
-      class="format lg:format-lg max-w-full p-6 bg-gray-100 border border-gray-200 rounded-lg shadow-md"
+      class="format max-w-full p-6 bg-gray-100 border border-gray-200 rounded-lg shadow-md"
     >
-      <h2 class="text-2xl sm:text-4xl font-bold hidden">
-        Allgemeine Informationen
-      </h2>
+      <h2 class="text-4xl font-bold hidden">Allgemeine Informationen</h2>
     </div>
   </section>
 </Layout>

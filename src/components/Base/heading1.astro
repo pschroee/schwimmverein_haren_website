@@ -1,0 +1,13 @@
+---
+export interface Props {
+  class?: string
+}
+---
+
+<h1
+  class={`not-format text-4xl font-extrabold ${
+    Astro.props.class ? " " + Astro.props.class : ""
+  }`}
+>
+  <slot />
+</h1>

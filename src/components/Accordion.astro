@@ -56,10 +56,7 @@ const { items, mode } = Astro.props as Props
               items.length === index + 1 ? "border-t-0" : "border-b-0"
             } border-gray-200`}
           >
-            <div
-              class="format lg:format-lg text-gray-500"
-              set:html={markdown(item.text)}
-            />
+            <div class="format text-gray-500" set:html={markdown(item.text)} />
           </div>
         </div>
       </>

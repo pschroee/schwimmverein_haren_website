@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro"
 import DownloadItem from "../components/DownloadItem.astro"
 import { FileTypeIcon } from "../types"
 import downloadsJson from "../data/footer-downloads.json"
+import Heading1 from "../components/Base/heading1.astro"
 const downloadItems = downloadsJson.downloads as {
   filename: string
   filetype: FileTypeIcon
@@ -12,9 +13,7 @@ const downloadItems = downloadsJson.downloads as {
 
 <Layout title="404" breadcrumb={[{ title: "404" }]}>
   <div class="max-w-screen-lg mx-auto">
-    <h1 class="col-span-2 mb-6 text-2xl sm:text-4xl font-bold text-gray-800">
-      404 - Seite nicht gefunden
-    </h1>
+    <Heading1 class="col-span-2 mb-6">404 - Seite nicht gefunden</Heading1>
     <p class="text-lg">Die angeforderte Seite konnte nicht gefunden werden.</p>
     <a
       href="/"

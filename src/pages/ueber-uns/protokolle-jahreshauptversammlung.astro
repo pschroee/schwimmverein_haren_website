@@ -7,6 +7,7 @@ const breadcrumbs = [
 import DownloadItem from "../../components/DownloadItem.astro"
 import { FileTypeIcon } from "../../types"
 import protokolleJson from "../../data/ueberuns-protokolle.json"
+import Heading1 from "../../components/Base/heading1.astro"
 const protokolleItems = protokolleJson.protokolle as {
   filename: string
   filetype: FileTypeIcon
@@ -16,9 +17,9 @@ const protokolleItems = protokolleJson.protokolle as {
 
 <Layout title="Protokolle Jahreshauptversammlung" breadcrumb={breadcrumbs}>
   <div class="max-w-screen-lg mx-auto">
-    <h1 class="col-span-2 mb-6 text-2xl sm:text-4xl font-bold text-gray-800">
-      Protokolle Jahreshauptversammlung
-    </h1>
+    <Heading1 class="col-span-2 mb-6"
+      >Protokolle Jahreshauptversammlung</Heading1
+    >
     {
       protokolleItems.length > 0 && (
         <ul class="space-y-2">
