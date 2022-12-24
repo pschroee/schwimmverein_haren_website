@@ -1,5 +1,6 @@
 ---
-title: "Anmeldung"
+title: Anmeldung
+draft: true
 ---
 
 ## § 1 Name und Sitz
