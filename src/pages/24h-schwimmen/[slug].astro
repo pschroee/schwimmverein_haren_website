@@ -7,17 +7,19 @@ export async function getStaticPaths() {
   const slugger = new GithubSlugger()
   const items = await Astro.glob("../../data/24h-schwimmen/*.md")
 
-  return items.map((post) => {
-    const slug = slugger.slug(post.frontmatter.title)
-    return {
-      params: {
-        slug: slug,
-      },
-      props: {
-        post: post,
-      },
-    }
-  })
+  return items
+    .filter((item) => !item.frontmatter.draft)
+    .map((post) => {
+      const slug = slugger.slug(post.frontmatter.title)
+      return {
+        params: {
+          slug: slug,
+        },
+        props: {
+          post: post,
+        },
+      }
+    })
 }
 
 const { compiledContent } = Astro.props.post

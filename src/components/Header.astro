@@ -17,6 +17,7 @@ let navItems: NavItem[] = [
     title: "24h Schwimmen",
     href: "/24h-schwimmen/",
     subnav: navItems24h
+      .filter((item) => !item.frontmatter.draft)
       .map((item) => {
         const slug = slugger.slug(item.frontmatter.title)
         return {

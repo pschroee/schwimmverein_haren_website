@@ -277,6 +277,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
       - { label: "Inhalt", name: "body", widget: "markdown" }
   - name: "footer"
     label: "Footer"
