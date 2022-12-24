@@ -1,6 +1,6 @@
 ---
 title: Anmeldung
-draft: true
+draft: false
 ---
 
 ## § 1 Name und Sitz
