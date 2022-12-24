@@ -1,6 +1,6 @@
 ---
 title: Anmeldung
-draft: false
+draft: true
 ---
 ## Juhu - 2022 ist mal wieder soweit!
 
