@@ -5,10 +5,35 @@ let pathname = new URL(Astro.request.url).pathname
 if (pathname[pathname.length - 1] != "/") {
   pathname = pathname + "/"
 }
-import Layout from "../../layouts/Layout.astro"
-import { NAVITEMS } from "../../config"
-import Heading1 from "../../components/Base/heading1.astro"
-const navItem = NAVITEMS.find((item) => item.href == pathname)
+import Layout from "../layouts/Layout.astro"
+import { NAVITEMS } from "../config"
+import Heading1 from "../components/Base/heading1.astro"
+
+import GithubSlugger from "github-slugger"
+import { NavItem } from "../types"
+
+const slugger = new GithubSlugger()
+
+const navItems24h = await Astro.glob("../data/24h-schwimmen/*.md")
+
+let navItems: NavItem[] = [
+  ...NAVITEMS,
+  {
+    title: "24h Schwimmen",
+    href: "/24h-schwimmen/",
+    subnav: navItems24h
+      .map((item) => {
+        const slug = slugger.slug(item.frontmatter.title)
+        return {
+          title: item.frontmatter.title,
+          href: `/24h-schwimmen/${slug}/`,
+        }
+      })
+      .reverse(),
+  },
+]
+
+const navItem = navItems.find((item) => item.href == pathname)
 ---
 
 <Layout title={title} breadcrumb={[{ title }]}>

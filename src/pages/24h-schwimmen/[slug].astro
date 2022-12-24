@@ -22,7 +22,10 @@ export async function getStaticPaths() {
 
 const { compiledContent } = Astro.props.post
 const title = Astro.props.post.frontmatter.title
-const breadcrumbs = [{ title: "Über uns", href: "/ueber-uns/" }, { title }]
+const breadcrumbs = [
+  { title: "24h Schwimmen", href: "/24h-schwimmen/" },
+  { title },
+]
 ---
 
 <Layout title="Ansprechpartner" breadcrumb={breadcrumbs}>
