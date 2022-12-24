@@ -21,8 +21,12 @@ Tannenstraße 8
 26892 Kluse
 
 Internet: www.sv-haren.de
+
 Email: 1vorsitzender@schwimmverein-haren.de
+
 Tel.: 04963/914384
+
+
 
 ## 1. Vorsitzender
 
