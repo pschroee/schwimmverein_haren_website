@@ -17,5 +17,3 @@ Der erfolgreiche Kurs der Vergangenheit wird fortgeführt, unsere Schwimmerinnen
 Die Trainingsinhalte der ersten Mannschaft lassen sich als „Aufbautraining" und „Anschlusstraining" bezeichnen. Die besonderen Talente unserer Mannschaft trainieren außerdem 1x pro Woche am Stützpunkt in Meppen (Talentnest).
 
 3x Training pro Woche erwaten wir von jedem Schwimmer als minimalen Trainingseinsatz.
-
-[T﻿rainingstermine](/wettkampfsport/trainingstermine/)
