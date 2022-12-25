@@ -1,10 +1,10 @@
 ---
-title: "Intensivschwimmkurs"
-layout: "../../layouts/MarkdownLayout.astro"
+layout: ../../layouts/MarkdownLayout.astro
+title: Intensivschwimmkurs
 breadcrumb:
-  - title: "Breitensport"
-    href: "/breitensport/"
-  - title: "Intensivschwimmkurs"
+  - title: Breitensport
+    href: /breitensport/
+  - title: Intensivschwimmkurs
 ---
 
 ## Wo:
@@ -48,10 +48,10 @@ Die Anweisungen des Schwimmlehrers befolgen
 
 ### 4. Was muss mein Kind zum Kurs mitbringen?
 
-Badebekleidung
-Badeschlappen
-Handtuch
-Duschbad + Shampoo
+Badebekleidung<br>
+Badeschlappen<br>
+Handtuch<br>
+Duschbad + Shampoo<br>
 
 ### 5. Was ist wichtiges zum Ablauf des Kurses zu beachten?
 
