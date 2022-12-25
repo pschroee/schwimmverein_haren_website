@@ -6,52 +6,50 @@ breadcrumb:
 ---
 Angaben im Sinne §5 TMG
 
-Schwimmverein Haren e.V.
-Tannenstraße 8
-26892 Kluse
+Schwimmverein Haren e.V.<br>
+Tannenstraße 8<br>
+26892 Kluse<br>
 
-Vereinsregister: 120258
-
+Vereinsregister: 120258<br>
 Registergericht: Amtsgericht Osnabrück
 
 ## Vertretungsberechtigt
-Andreas Hopster
-Tannenstraße 8
-26892 Kluse
-Internet: www.sv-haren.de
-Email: 1vorsitzender@schwimmverein-haren.de
-Tel.: 04963/914384
-
+Andreas Hopster<br>
+Tannenstraße 8<br>
+26892 Kluse<br>
+Internet: www.sv-haren.de<br>
+Email: 1vorsitzender@schwimmverein-haren.de<br>
+Tel.: 04963/914384<br>
 
 ## 1. Vorsitzender
-Andreas Hopster
-Tannenstraße 8
-26892 Kluse
-1vorsitzender@schwimmverein-haren.de
+Andreas Hopster<br>
+Tannenstraße 8<br>
+26892 Kluse<br>
+1vorsitzender@schwimmverein-haren.de<br>
 
 ## 2. Vorsitzender
-Silke Schmid
-Beethovenstr. 10
-26906 Dersum
-2vorsitzender@schwimmverein-haren.de
+Silke Schmid-soffels<br>
+Beethovenstr. 10<br>
+26906 Dersum<br>
+2vorsitzender@schwimmverein-haren.de<br>
 
 ## Verantwortlich für Inhalte & Gestaltung
-Schwimmverein Haren e.V.
-Andreas Hopster
-Tannenstraße 8
-26892 Kluse
-Email: 1vorsitzender@schwimmverein-haren.de
+Schwimmverein Haren e.V.<br>
+Andreas Hopster<br>
+Tannenstraße 8<br>
+26892 Kluse<br>
+Email: 1vorsitzender@schwimmverein-haren.de<br>
 
 ## Schwimmwart
-Marita Drees
-Düneburger Weg 20
-49733 Haren (Ems)
-schwimmwart@schwimmverein-haren.de
+Marita Drees<br>
+Düneburger Weg 20<br>
+49733 Haren (Ems)<br>
+schwimmwart@schwimmverein-haren.de<br>
 
 ## Konto
-Sparkasse Emsland
-IBAN: DE23 2665 0001 1001 0131 09
-BIC: NOLADE21EMS
+Sparkasse Emsland<br>
+IBAN: DE23 2665 0001 1001 0131 09<br>
+BIC: NOLADE21EMS<br>
 
 ## Streitschlichtung
 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
