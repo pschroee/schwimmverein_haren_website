@@ -43,7 +43,6 @@ Ansprechpartner / Trainer: ?<br>
 
 **Achtung:** Freitags sind Änderungen aufgrund Hallenbad- Disco und Spielnachmittag zu beachten. Bitte auf der Webseite des Schwimmbades informieren!
 
-bei Rückfragen:
-
-* Marita Drees 05932/ 1064
-* Andreas Hopster 04963/914384
+bei Rückfragen:<br>
+* Marita Drees 05932/ 1064<br>
+* Andreas Hopster 04963/914384<br>
