@@ -1,31 +1,29 @@
 ---
-title: "Datenschutzerklärung"
-layout: "../layouts/MarkdownLayout.astro"
+title: Datenschutzerklärung
+layout: ../layouts/MarkdownLayout.astro
 breadcrumb:
-  - title: "Datenschutzerklärung"
+  - title: Datenschutzerklärung
 ---
-
 Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) im Rahmen der Erbringung unserer Leistungen sowie innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).
 
 ## Verantwortlicher
 
-Schwimmverein Haren e.V.
-Georg Robben
-Czerlitzkastr. 18
-49733 Haren (Ems)
-Deutschland
-
-E-Mail: 1vorsitzender@schwimmverein-haren.de
+Schwimmverein Haren e.V.<br>
+Andreas Hopster<br>
+Tannenstraße 8<br>
+26892 Kluse<br>
+D﻿eutschland<br>
+1vorsitzender@schwimmverein-haren.de<br>
 
 Weiter Kontaktinformationen sind im Impressum zu finden
 
 ## Arten der verarbeiteten Daten
 
-Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
-Kontaktdaten (z.B., E-Mail, Telefonnummern).
-Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).
-Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).
-Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
+Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).<br>
+Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
+Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>
+Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br>
+Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).<br>
 
 ## Kategorien betroffener Personen
 
