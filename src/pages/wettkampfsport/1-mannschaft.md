@@ -18,4 +18,4 @@ Die Trainingsinhalte der ersten Mannschaft lassen sich als „Aufbautraining" un
 
 3x Training pro Woche erwaten wir von jedem Schwimmer als minimalen Trainingseinsatz.
 
-[T﻿rainingstermine](/wettkampfsport/entries/trainingstermine)
+[T﻿rainingstermine](/wettkampfsport/trainingstermine/)
