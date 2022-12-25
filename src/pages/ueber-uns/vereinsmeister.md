@@ -6,6 +6,8 @@ breadcrumb:
     href: /ueber-uns/
   - title: Vereinsmeister
 ---
+<div class="pull-left">
+
 ## Männer
 
 * 2016: Claas Robben (960,1 Punkte)
@@ -36,7 +38,8 @@ breadcrumb:
 * 1991: ​​​​​​​Sascha Fürst (264,0 Punkte)
 * 1990: ​Sascha Fürst (351,0 Punkte)
 
-
+</div>
+<div class="pull-right">
 
 ## Frauen
 
