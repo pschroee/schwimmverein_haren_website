@@ -25,9 +25,9 @@ Die Mitgliedsbeiträge werden halbjährlich (15.Mai & 15.November) für das jewe
 
 Die Beiträge sehen wie folgt aus:
 
-Kinder / Jugendliche bis 18 Jahre & Erwachsene in der Schul- und Berufsausbildung: 20,00 €/pro Halbjahr<br>
-Erwachsene: 25,00 €/pro Halbjahr<br>
-Familie: 37,50 €/pro Halbjahr<br>
+* Kinder / Jugendliche bis 18 Jahre & Erwachsene in der Schul- und Berufsausbildung: 20,00 €/pro Halbjahr<br>
+* Erwachsene: 25,00 €/pro Halbjahr<br>
+* Familie: 37,50 €/pro Halbjahr<br>
 
 ## Kündigung
 Die Kündigung kann jeweils nur zum Halbjahresende erfolgen und muß schriftlich 4 Wochen vor dem Halbjahresende beim Kassenwart
