@@ -27,8 +27,8 @@ Tannenstraße 8<br>
 26892 Kluse<br>
 1vorsitzender@schwimmverein-haren.de<br>
 
-## 2. Vorsitzender
-Silke Schmid-soffels<br>
+## 2. Vorsitzende
+Silke Schmid-Stoffels<br>
 Beethovenstr. 10<br>
 26906 Dersum<br>
 2vorsitzender@schwimmverein-haren.de<br>
