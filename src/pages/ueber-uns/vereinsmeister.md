@@ -10,7 +10,7 @@ breadcrumb:
 
 ## Männer
 
-* 2016: Claas Robben (960,1 Punkte)
+* 2016: Claas Robben |(960,1 Punkte)
 * 2015: Philipp Schröer (380,6 Punkte)<br> Masters: Jens Hoppe
 * 2014: Claas Robben<br> Masters: Sebastian Eiken
 * 2013: Claas Robben<br> Masters: Sebastian Eiken
