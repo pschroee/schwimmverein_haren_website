@@ -13,6 +13,12 @@ breadcrumb:
 
 ## Männer
 
+- 2022: entfallen
+- 2021: entfallen
+- 2020: entfallen
+- 2019: Marius Hollen<br> Masters: Class Robben
+- 2018: Claas Robben
+- 2017: Claas Robben
 - 2016: Claas Robben (960,1 Punkte)
 - 2015: Philipp Schröer (380,6 Punkte)<br> Masters: Jens Hoppe
 - 2014: Claas Robben<br> Masters: Sebastian Eiken
@@ -46,6 +52,12 @@ breadcrumb:
 
 ## Frauen
 
+- 2022: entfallen
+- 2021: entfallen
+- 2020: entfallen
+- 2019: Marcia Niemeyer<br> Masters: Anna Held
+- 2018: Marcia Niemeyer<br> Masters: Astrid Hoppe
+- 2017: Marcia Niemeyer<br> Masters: Anna Held
 - 2016: Marcia Niemeyer (846,0 Punkte)<br> Masters: Astrid Hoppe
 - 2015: Marcia Niemeyer (799,5 Punkte)
 - 2014: Marcia Niemeyer<br> Masters: Anna Held
