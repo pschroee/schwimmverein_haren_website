@@ -9,6 +9,7 @@ import rehypeWrapAll from "rehype-wrap-all"
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://schwimmverein-haren.de",
   integrations: [
     tailwind(),
     sitemap(),

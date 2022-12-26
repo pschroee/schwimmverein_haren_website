@@ -9,9 +9,11 @@ const downloadItems = downloadsJson.downloads as {
   filetype: FileTypeIcon
   label: string
 }[]
+
+const title = "Downloads"
 ---
 
-<Layout title="FAQ" breadcrumb={[{ title: "FAQ" }]}>
+<Layout title={title} breadcrumb={[{ title }]}>
   <div class="max-w-screen-lg mx-auto">
     <Heading1 class="col-span-2 mb-6">Downloads</Heading1>
     {
