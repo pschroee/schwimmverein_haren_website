@@ -150,10 +150,10 @@ function checkSubNavActive(item) {
                     </button>
                     <div
                       id={`dropdownNavbar-${id}`}
-                      class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow w-min"
+                      class="z-10 hidden bg-white divide-y divide-gray-100 rounded shadow"
                     >
                       <ul
-                        class="py-1 text-sm text-gray-700"
+                        class="py-1 text-sm text-gray-700 overflow-scroll max-h-80 md:max-h-full"
                         aria-labelledby={`dropdownNavbarButton-${id}`}
                       >
                         {item.subnav.map((subitem) => (
