@@ -32,7 +32,9 @@ const breadcrumbs = [
 
 <Layout title="Ansprechpartner" breadcrumb={breadcrumbs}>
   <article class="max-w-screen-lg mx-auto format">
-    {!Astro.props.post.frontmatter.hideTitle && <Heading1>{title}</Heading1>}
+    <Heading1 class={Astro.props.post.frontmatter.hideTitle ? "hidden" : ""}
+      >{title}
+    </Heading1>
     <Fragment set:html={compiledContent()} />
   </article>
 </Layout>
