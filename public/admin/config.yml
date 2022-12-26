@@ -146,7 +146,6 @@ collections:
         label: "Allgemeine Informationen"
         file: "src/data/homepage-allgemeineInfos.json"
         fields:
-          - { label: "Titel", name: "title", widget: "string" }
           - { label: Inhalt, name: body, widget: markdown, required: true }
   - name: "ueberuns"
     label: "Über uns"
