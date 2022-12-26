@@ -14,6 +14,7 @@ Vereinsregister: 120258<br>
 Registergericht: Amtsgericht Osnabrück
 
 ## Vertretungsberechtigt
+
 Andreas Hopster<br>
 Tannenstraße 8<br>
 26892 Kluse<br>
@@ -22,36 +23,42 @@ Email: 1vorsitzender@schwimmverein-haren.de<br>
 Tel.: 04963/914384<br>
 
 ## 1. Vorsitzender
+
 Andreas Hopster<br>
 Tannenstraße 8<br>
 26892 Kluse<br>
 1vorsitzender@schwimmverein-haren.de<br>
 
 ## 2. Vorsitzende
+
 Silke Schmid-Stoffels<br>
 Beethovenstr. 10<br>
 26906 Dersum<br>
 2vorsitzender@schwimmverein-haren.de<br>
 
 ## Verantwortlich für Inhalte & Gestaltung
+
 Schwimmverein Haren e.V.<br>
 Andreas Hopster<br>
 Tannenstraße 8<br>
 26892 Kluse<br>
-Email: 1vorsitzender@schwimmverein-haren.de<br>
+1vorsitzender@schwimmverein-haren.de<br>
 
 ## Schwimmwart
+
 Marita Drees<br>
 Düneburger Weg 20<br>
 49733 Haren (Ems)<br>
 schwimmwart@schwimmverein-haren.de<br>
 
 ## Konto
+
 Sparkasse Emsland<br>
 IBAN: DE23 2665 0001 1001 0131 09<br>
 BIC: NOLADE21EMS<br>
 
 ## Streitschlichtung
+
 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
 https://ec.europa.eu/consumers/odr.
 Unsere E-Mail-Adresse finden Sie oben im Impressum.
@@ -59,6 +66,7 @@ Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
 Verbraucherschlichtungsstelle teilzunehmen.
 
 ## Haftung für Inhalte
+
 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den
 allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
 verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu
@@ -69,6 +77,7 @@ Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entspr
 Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 
 ## Urheberrecht
+
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
 Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
 Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
