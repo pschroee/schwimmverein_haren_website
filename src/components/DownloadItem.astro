@@ -12,16 +12,29 @@ export interface Props {
 const { filename, filetype, label, download } = Astro.props as Props
 ---
 
-<a
-  href={filename}
-  class="flex items-center p-3 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100"
-  download={download ? download : false}
->
-  <FileTypeIconComponent icon={filetype} class="w-8 h-8 sm:w-10 sm:h-10" />
+{
+  download ? (
+    <a
+      href={filename}
+      class="flex items-center p-3 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100"
+      download
+    >
+      <FileTypeIconComponent icon={filetype} class="w-8 h-8 sm:w-10 sm:h-10" />
 
-  <h2
-    class="ml-2 sm:ml-4 text-sm font-bold sm:font-normal sm:text-lg text-gray-900"
-  >
-    {label}
-  </h2>
-</a>
+      <h2 class="ml-2 sm:ml-4 text-sm font-bold sm:font-normal sm:text-lg text-gray-900">
+        {label}
+      </h2>
+    </a>
+  ) : (
+    <a
+      href={filename}
+      class="flex items-center p-3 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100"
+    >
+      <FileTypeIconComponent icon={filetype} class="w-8 h-8 sm:w-10 sm:h-10" />
+
+      <h2 class="ml-2 sm:ml-4 text-sm font-bold sm:font-normal sm:text-lg text-gray-900">
+        {label}
+      </h2>
+    </a>
+  )
+}
