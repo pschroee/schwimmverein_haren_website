@@ -28,8 +28,8 @@ type Termin = {
   key: string
 }
 
-const nextMonthsFilterMin = 3
 const nextMonthsFilterMax = 12
+const nextMonthMinTermine = 3
 
 type Props = {}
 
@@ -75,7 +75,7 @@ const TerminList = ({}: Props) => {
       )
   }
 
-  const filteredTermineMin = getFilteredTermineTo(nextMonthsFilterMin)
+  const filteredTermineMin = termine.slice(0, nextMonthMinTermine)
 
   const filteredTermineMax = getFilteredTermineTo(nextMonthsFilterMax)
 
