@@ -39,6 +39,11 @@ export const NAVITEMS: NavItems = [
         href: "/breitensport/intensivschwimmkurs",
       },
       { title: "Aquafitness", href: "/breitensport/aquafitness/" },
+      { title: "Teenygruppe", href: "/breitensport/teenygruppe/" },
+      {
+        title: "Erwachsenenschwimmen",
+        href: "/breitensport/erwachsenenschwimmen/",
+      },
       { title: "Trainingstermine", href: "/breitensport/trainingstermine/" },
     ],
   },
