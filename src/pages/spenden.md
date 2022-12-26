@@ -1,10 +1,9 @@
 ---
-title: "Spenden"
-layout: "../layouts/MarkdownLayout.astro"
+title: Spenden
+layout: ../layouts/MarkdownLayout.astro
 breadcrumb:
-  - title: "Spenden"
+  - title: Spenden
 ---
-
 ## Unterstützen Sie unseren Verein
 
 Werden Sie Mitglied oder helfen Sie mit einer Geldspende.
@@ -14,10 +13,10 @@ Sie können den Schwimmverein durch eine Geldspende oder ihren Mitgliedsbeitrag 
 
 ## Wenn Sie spenden möchten:
 
-Spendenkonto:
-Sparkasse Emsland
-IBAN: DE23 2665 0001 1001 0131 09
-BIC: NOLADE21EMS
+Spendenkonto: <br>
+Sparkasse Emsland<br>
+IBAN: DE23 2665 0001 1001 0131 09<br>
+BIC: NOLADE21EMS<br>
 
 Ihre Anschrift sowie Verwendungszweck "Spende" bitte nicht vergessen!
 Eine Spendenbescheinigung erhalten Sie unaufgefordert nach Eingang ihrer Spende.
@@ -26,7 +25,7 @@ Eine Spendenbescheinigung erhalten Sie unaufgefordert nach Eingang ihrer Spende.
 
 Verwenden Sie bitte das vorbereitete Anmeldeformular für die Mitgliedschaft. Drucken Sie das Formular aus und senden Sie es möglichst in Druckschrift ausgefüllt, per Post an:
 
-Schwimmverein Haren e.V
-z.H. Friedhelm Schröer
-Pfarrer-Niemann-Str. 5
-49733 Haren (Ems)
+Schwimmverein Haren e.V<br>
+z.H. Friedhelm Schröer<br>
+Pfarrer-Niemann-Str. 5<br>
+49733 Haren (Ems)<br>
