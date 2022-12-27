@@ -1,25 +1,9 @@
 {
   "trainerundbetreuer": [
     {
-      "name": "Heike Janning",
-      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
-      "function": "Trainerin",
-      "email": ""
-    },
-    {
-      "name": "Melanie Fehrmann",
+      "name": "Alicia Cordes",
       "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainerin"
-    },
-    {
-      "name": "Jens Hoppe",
-      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
-      "function": "Trainer"
-    },
-    {
-      "name": "Sebastian Eiken",
-      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
-      "function": "Trainer"
     },
     {
       "name": "Anna Held",
@@ -27,15 +11,15 @@
       "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg"
     },
     {
-      "name": "Sabrina Ellhof",
-      "function": "Leiterin Aquafitness",
+      "name": "Heike Janning",
       "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
-      "phone": "0177 4004721"
+      "function": "Trainerin",
+      "email": ""
     },
     {
-      "name": "Alicia Cordes",
+      "name": "Jens Hoppe",
       "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
-      "function": "Trainerin"
+      "function": "Trainer"
     },
     {
       "name": "Johanna Drees",
@@ -46,6 +30,22 @@
       "name": "Lennard Drees",
       "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainer Landtraining"
+    },
+    {
+      "name": "Melanie Fehrmann",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
+      "function": "Trainerin"
+    },
+    {
+      "name": "Sabrina Ellhof",
+      "function": "Trainerin Aquafitness",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
+      "phone": ""
+    },
+    {
+      "name": "Sebastian Eiken",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
+      "function": "Trainer"
     }
   ]
 }
