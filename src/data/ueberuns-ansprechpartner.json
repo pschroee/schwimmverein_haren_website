@@ -7,16 +7,16 @@
       "email": "1vorsitzender@schwimmverein-haren.de"
     },
     {
-      "name": "Guido Fehrmann",
-      "function": "Schriftführer",
-      "email": "schriftfuehrer@schwimmverein-haren.de",
-      "image": "/images/uploads/ansprechpartner/guido-fehrmann.png"
-    },
-    {
       "name": "Silke Schmid-Stoffels",
       "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg",
       "function": "2. Vorsitzende",
       "email": "2vorsitzender@schwimmverein-haren.de"
+    },
+    {
+      "name": "Guido Fehrmann",
+      "function": "Schriftführer",
+      "email": "schriftfuehrer@schwimmverein-haren.de",
+      "image": "/images/uploads/ansprechpartner/guido-fehrmann.png"
     },
     {
       "name": "Friedhelm Schröer",
