@@ -54,6 +54,12 @@
       "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
     },
     {
+      "name": "Sophia Mört",
+      "function": "Jugendsprecherin",
+      "email": "jugendsprecher@schwimmverein-haren.de",
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
+    },
+    {
       "name": "Melanie Fehrmann",
       "function": "Leiterin Intensivschwimmkurs",
       "email": "intensivschwimmkurs@schwimmverein-haren.de",
@@ -61,10 +67,10 @@
       "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
     },
     {
-      "name": "Sophia Mört",
-      "function": "Jugendsprecherin",
-      "email": "jugendsprecher@schwimmverein-haren.de",
-      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg"
+      "name": "Sabrina Ellhof",
+      "image": "/images/uploads/ansprechpartner/0_kein_foto.jpg",
+      "function": "Leiterin Aquafitness",
+      "phone": "0177 4004721"
     }
   ]
 }
