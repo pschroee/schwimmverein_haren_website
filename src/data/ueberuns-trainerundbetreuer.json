@@ -2,23 +2,23 @@
   "trainerundbetreuer": [
     {
       "name": "Heike Janning",
-      "image": "/images/uploads/trainerundbetreuer/janning_heike_280x360.jpg",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainerin",
       "email": ""
     },
     {
       "name": "Melanie Fehrmann",
-      "image": "/images/uploads/trainerundbetreuer/fehrmann_melanie_280x360.jpg",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainerin"
     },
     {
       "name": "Jens Hoppe",
-      "image": "/images/uploads/trainerundbetreuer/hoppe_jens_280x360.jpg",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainer"
     },
     {
       "name": "Sebastian Eiken",
-      "image": "/images/uploads/trainerundbetreuer/eiken_sebastian_280x360.jpg",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainer"
     },
     {
@@ -34,8 +34,18 @@
     },
     {
       "name": "Alicia Cordes",
-      "image": "/images/uploads/trainerundbetreuer/cordes_alicia_280x360.jpg",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
       "function": "Trainerin"
+    },
+    {
+      "name": "Johanna Drees",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
+      "function": "Trainerin"
+    },
+    {
+      "name": "Lennard Drees",
+      "image": "/images/uploads/trainerundbetreuer/0_kein_foto.jpg",
+      "function": "Trainer Landtraining"
     }
   ]
 }
