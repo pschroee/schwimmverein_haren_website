@@ -6,56 +6,57 @@ breadcrumb:
     href: /wettkampfsport/
   - title: Trainingstermine
 ---
-
 ## Montag:
-
-- **1\. Mannschaft**<br>
+* **1. Mannschaft**<br>
   19:00 - 20:30 Uhr<br>
-  Ansprechpartner / Trainer: Heike Janning<br>
+  Ansprechpartner / Trainer: Jens Hoppe<br>
 
 ## Dienstag:
 
-- **1\. Mannschaft**<br>
+* **1. Mannschaft**<br>
   18:00 - 19:30 Uhr<br>
   Ansprechpartner / Trainer: Sebastian Eiken<br>
-- **2\. Mannschaft**<br>
+
+* **2. Mannschaft**<br>
   18:00 - 19:30 Uhr<br>
   Ansprechpartner / Trainer: Jens Hoppe<br>
 
-## Mittwoch:
-
-- **3\. Mannschaft**<br>
+* **3. Mannschaft**<br>
   18:00 - 19:00 Uhr<br>
-  Ansprechpartner / Trainer: Melanie Fehrmann<br>
+  Ansprechpartner / Trainer:  Johanna Drees / Heike Janning<br>
 
-- **1\. Mannschaft**<br>
+## Mittwoch:
+* **1. Mannschaft**<br>
   18:00 - 19:30 Uhr<br>
   Ansprechpartner / Trainer: Heike Janning<br>
 
 ## Donnerstag:
-
-- **2\. Mannschaft**<br>
+* **2. Mannschaft**<br>
   17:30 - 18:30 Uhr<br>
-  Ansprechpartner / Trainer: Jens Hoppe<br>
-- **Landtraining Turnhalle**<br>
+  Ansprechpartner / Trainer: Melanie Fehrmann<br>
+
+* **Landtraining Turnhalle**<br>
   19:00 - 20:00 Uhr<br>
   Ansprechpartner / Trainer: Lennard Drees<br>
 
 ## Freitag:
+* **1. Mannschaft**<br>
+  18:00 - 19:30 Uhr<br>
+  Ansprechpartner / Trainer: Johanna Drees / Anna Held / Eva<br>
 
-- **3\. Mannschaft**<br>
-  17:00 - 18:00 Uhr<br>
-  Ansprechpartner / Trainer: Alicia Cordes<br>
-- **2\. Mannschaft**<br>
+* **2. Mannschaft**<br>
   18:00 - 19:30 Uhr<br>
-  Ansprechpartner / Trainer: Jens Hoppe<br>
-- **1\. Mannschaft**<br>
-  18:00 - 19:30 Uhr<br>
-  Ansprechpartner / Trainer: Heike Janning<br>
+  Ansprechpartner / Trainer: Melanie Fehrmann<br>
+
+## Samstag:
+  * **3. Mannschaft**<br>
+    ??:00 - ??:00 Uhr<br>
+    Ansprechpartner / Trainer: Heike Janning<br>
+  
 
 **Achtung:** Freitags sind Änderungen aufgrund Hallenbad- Disco und Spielnachmittag zu beachten. Bitte auf der Webseite des Schwimbades informieren !
 
 bei Rückfragen:<br>
 
-- Marita Drees 05932/ 1064<br>
-- Andreas Hopster 04963/914384<br>
+* Marita Drees 05932/ 1064<br>
+* Andreas Hopster 04963/914384<br>
