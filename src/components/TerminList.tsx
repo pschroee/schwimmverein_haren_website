@@ -62,12 +62,12 @@ const TerminList = ({}: Props) => {
     setShowMin((prev) => !prev)
   }
 
-  const getFilteredTermineTo = (to: number) => {
+  const getFilteredTermine = (from: Date, to: Date) => {
     return termine
       .filter((termin) =>
         isWithinInterval(new Date(termin.date.start), {
-          start: startOfToday(),
-          end: addMonths(endOfToday(), to),
+          start: from,
+          end: to,
         })
       )
       .sort((a, b) =>
@@ -75,9 +75,15 @@ const TerminList = ({}: Props) => {
       )
   }
 
-  const filteredTermineMin = termine.slice(0, nextMonthMinTermine)
+  const filteredTermineMin = getFilteredTermine(
+    startOfToday(),
+    addMonths(startOfToday(), nextMonthsFilterMax)
+  ).slice(0, nextMonthMinTermine)
 
-  const filteredTermineMax = getFilteredTermineTo(nextMonthsFilterMax)
+  const filteredTermineMax = getFilteredTermine(
+    startOfToday(),
+    addMonths(startOfToday(), nextMonthsFilterMax)
+  )
 
   const filteredTermine = showMin ? filteredTermineMin : filteredTermineMax
 
