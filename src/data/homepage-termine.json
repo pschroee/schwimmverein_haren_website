@@ -75,6 +75,17 @@
     {
       "date": {
         "allDay": true,
+        "start": "March 5, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Vereinsmeisterschaft 2023",
+      "location": "Hallenbad Haren",
+      "image": "/images/uploads/termine/svharen.png",
+      "link": "https://www.schwimmverein-haren.de/downloads/einladung-vereinsmeisterschaft-2023.pdf"
+    },
+    {
+      "date": {
+        "allDay": true,
         "start": "March 11, 2023 12:00 AM",
         "end": "March 12, 2023 12:00 AM"
       },
@@ -191,17 +202,6 @@
       "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
       "location": "-unbekannt-",
       "externalLink": false
-    },
-    {
-      "date": {
-        "allDay": true,
-        "start": "March 5, 2023 12:00 AM",
-        "end": ""
-      },
-      "title": "Vereinsmeisterschaft 2023",
-      "location": "Hallenbad Haren",
-      "image": "/images/uploads/termine/svharen.png",
-      "link": "https://www.schwimmverein-haren.de/downloads/einladung-vereinsmeisterschaft-2023.pdf"
     }
   ]
 }
