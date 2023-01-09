@@ -63,6 +63,18 @@
     {
       "date": {
         "allDay": true,
+        "start": "February 24, 2023 12:00 AM",
+        "end": ""
+      },
+      "title": "Jahreshauptversammlung 2023",
+      "image": "/images/uploads/termine/svharen.png",
+      "link": "https://www.schwimmverein-haren.de/downloads/einladung_jhv_2023.pdf",
+      "location": "Cafe des Hallenbad Haren",
+      "externalLink": false
+    },
+    {
+      "date": {
+        "allDay": true,
         "start": "February 25, 2023 12:00 AM",
         "end": "February 26, 2023 12:00 AM"
       },
