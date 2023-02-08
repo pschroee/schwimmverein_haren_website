@@ -78,6 +78,18 @@
         "start": "February 25, 2023 12:00 AM",
         "end": "February 26, 2023 12:00 AM"
       },
+      "title": "17. Schwimm-Meeting Nettebad",
+      "location": "Nettebad Osnabrück",
+      "link": "https://www.burg-gretesch.de/klub/tsg-07-burg-gretesch-e-v/hold/schwimmen--3/sider/schwimm-meeting-nettebad--3",
+      "externalLink": true,
+      "image": "/images/uploads/termine/burg-gretisch.png"
+    },
+    {
+      "date": {
+        "allDay": true,
+        "start": "February 25, 2023 12:00 AM",
+        "end": "February 26, 2023 12:00 AM"
+      },
       "title": "Kreismeisterschaften kurze Strecken",
       "image": "/images/uploads/termine/kreisschwimmverband-emsland.png",
       "location": "Hallenbad Meppen",
@@ -214,18 +226,6 @@
       "image": "/images/uploads/termine/bezirksschwimmverband-weser-ems.png",
       "location": "-unbekannt-",
       "externalLink": false
-    },
-    {
-      "date": {
-        "allDay": true,
-        "start": "February 25, 2023 12:00 AM",
-        "end": "February 26, 2023 12:00 AM"
-      },
-      "title": "17. schwimm-meeting",
-      "location": "Nettebad Osnabrück",
-      "link": "https://www.burg-gretesch.de/klub/tsg-07-burg-gretesch-e-v/hold/schwimmen--3/sider/schwimm-meeting-nettebad--3",
-      "externalLink": true,
-      "image": "/images/uploads/termine/burg-gretisch.png"
     }
   ]
 }
