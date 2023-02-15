@@ -10,7 +10,7 @@ Sport mit Spaß und flotten Rhythmen - Aquafitness
 (Gründung der Gruppe: 1999)
 
 Termin:
-dienstags 19.45 Uhr bis 20.30 Uhr
+dienstags 20.00 Uhr bis 20.45 Uhr
 nur während der offiziellen Hallenbadsaison
 kein Training in den Schulferien
 
