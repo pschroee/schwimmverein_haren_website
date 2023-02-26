@@ -17,7 +17,7 @@ exports.handler = async (event, context) => {
   } else if (event.httpMethod === "POST") {
     try {
       const body = JSON.parse(event.body)
-      let isPostAdded = false
+      let isPostAddedOrEdited = false
 
       if (Array.isArray(body)) {
         body.forEach((bodyItem) => {
@@ -27,9 +27,10 @@ exports.handler = async (event, context) => {
                 if (
                   changesItem.field == "feed" &&
                   changesItem.value.item == "post" &&
-                  changesItem.value.verb == "add"
+                  (changesItem.value.verb == "add" ||
+                    changesItem.value.verb == "edited")
                 ) {
-                  isPostAdded = true
+                  isPostAddedOrEdited = true
                 }
               })
             })
@@ -43,17 +44,18 @@ exports.handler = async (event, context) => {
               if (
                 changesItem.field == "feed" &&
                 changesItem.value.item == "post" &&
-                changesItem.value.verb == "add"
+                (changesItem.value.verb == "add" ||
+                  changesItem.value.verb == "edited")
               ) {
-                isPostAdded = true
+                isPostAddedOrEdited = true
               }
             })
           })
         }
       }
 
-      if (isPostAdded) {
-        console.log("New post is added. Rebuild the site.")
+      if (isPostAddedOrEdited) {
+        console.log("New post is added or edited. Rebuild the site.")
         await fetch(process.env.NETLIFY_BUILD_HOOK, {
           headers: {
             "content-type": "application/json",
