@@ -22,21 +22,20 @@ exports.handler = async (event, context) => {
       return { statusCode: 401, body: "Not allowed" }
     }
     return { statusCode: 200, body: challenge }
-  }
-  else if (event.httpMethod === "POST") {
+  } else if (event.httpMethod === "POST") {
     try {
-      await fetch(process.env.NETLIFY_BUILD_HOOK, {
-      headers: {
-        "content-type": "application/json",
-      },
-      method: "POST",
-      })
-    }
-    catch (error) {
-      return ({
+      console.log(event.body)
+      // await fetch(process.env.NETLIFY_BUILD_HOOK, {
+      // headers: {
+      //   "content-type": "application/json",
+      // },
+      // method: "POST",
+      // })
+    } catch (error) {
+      return {
         statusCode: 422,
         body: `Oops! Something went wrong. ${error}`,
-      })      
+      }
     }
   }
 }
