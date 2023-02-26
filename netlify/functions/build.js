@@ -26,7 +26,8 @@ exports.handler = async (event, context) => {
               entryItem.changes.forEach((changesItem) => {
                 if (
                   changesItem.field == "feed" &&
-                  changesItem.value.item == "post" &&
+                  (changesItem.value.item == "post" ||
+                    changesItem.value.item == "status") &&
                   (changesItem.value.verb == "add" ||
                     changesItem.value.verb == "edited")
                 ) {
@@ -43,7 +44,8 @@ exports.handler = async (event, context) => {
             entryItem.changes.forEach((changesItem) => {
               if (
                 changesItem.field == "feed" &&
-                changesItem.value.item == "post" &&
+                (changesItem.value.item == "post" ||
+                  changesItem.value.item == "status") &&
                 (changesItem.value.verb == "add" ||
                   changesItem.value.verb == "edited")
               ) {
