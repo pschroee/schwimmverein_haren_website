@@ -2,7 +2,7 @@
   "ankuendigungen": [
     {
       "externalLink": false,
-      "active": true,
+      "active": false,
       "title": "Jahreshauptversammlung",
       "body": "Am 24. Februar 2023 findet um 19 Uhr unsere diesjährige Jahreshauptversammlung im Cafe des Hallenbad Haren statt.\nFür weitere Infos bitte einfach diesen Beitrag  anwählen.",
       "href": "https://www.schwimmverein-haren.de/downloads/einladung_jhv_2023.pdf"
@@ -15,7 +15,7 @@
       "externalLink": true
     },
     {
-      "active": true,
+      "active": false,
       "title": "Vereinsmeisterschaft",
       "body": "Die Vereinsmeisterschaft findet am 5. März 2023 ab 13 Uhr im Hallenbad Haren statt. Für weitere Infos bitte einfach diesen Beitrag anwählen.",
       "href": "https://www.schwimmverein-haren.de/downloads/einladung-vereinsmeisterschaft-2023.pdf"
