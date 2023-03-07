@@ -2,6 +2,13 @@
   "ankuendigungen": [
     {
       "externalLink": false,
+      "active": true,
+      "href": "/spezial/freie-plätze-beim-aquafitness",
+      "title": "Freie Plätze beim Aquafitness!",
+      "body": "Jeden Dienstag von 20:00 Uhr bis 20:45 Uhr"
+    },
+    {
+      "externalLink": false,
       "active": false,
       "title": "Jahreshauptversammlung",
       "body": "Am 24. Februar 2023 findet um 19 Uhr unsere diesjährige Jahreshauptversammlung im Cafe des Hallenbad Haren statt.\nFür weitere Infos bitte einfach diesen Beitrag  anwählen.",
@@ -26,13 +33,6 @@
       "href": "/spezial/übungsleiter-in-gesucht/",
       "externalLink": false,
       "body": "Wir suchen neue Übungsleiter. Für mehr Informationen auf diesem Beitrag klicken."
-    },
-    {
-      "externalLink": false,
-      "active": true,
-      "href": "/spezial/freie-plätze-beim-aquafitness",
-      "title": "Freie Plätze beim Aquafitness!",
-      "body": "Jeden Dienstag von 20:00 Uhr bis 20:45 Uhr"
     }
   ]
 }
