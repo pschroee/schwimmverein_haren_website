@@ -6,7 +6,7 @@ breadcrumb:
     href: /breitensport/
   - title: Intensivschwimmkurs
 ---
-## **A﻿ufnahmestopp!!! Wegen der langen Warteliste, leider keine Neuaufnahmen mehr möglich.**
+## **A﻿ktuell besteht für den Intensivschwimmkurs ein Aufnahmestopp!!! Aufgrund der langen Warteliste sind leider keine Neuaufnahmen mehr möglich.**
 
 ## Wo:
 
