@@ -2,6 +2,13 @@
   "ankuendigungen": [
     {
       "externalLink": false,
+      "active": true,
+      "title": "Masters-Schwimmen für Erwachsene",
+      "href": "/spezial/masters-schwimmen-für-erwachsene/",
+      "body": "Start ab Fr. dem 01.12.2023. Perfekt für (Wieder-)Einsteiger!"
+    },
+    {
+      "externalLink": false,
       "active": false,
       "title": "Schwimmabzeichentag!",
       "body": "Am 21.05.23 von 12 bis 17 Uhr im Hallenbad Haren. Für weitere Informationen klicke bitte auf diese Ankündigung.",
