@@ -8,7 +8,7 @@ breadcrumb:
 ---
 ## Mitglied werden
 
-Werden Sie Mitglied im Schwimmverein Haren e.V. und seien Sie willkommen in einem der größten Schwimmvereine des Emslandes. Sie müssen dazu nur das Anmeldeformular ausfüllen und beim Trainer oder Vorstand abgeben. Sie können das [Anmeldeformular](/downloads/anmeldeformular_sv_haren_4.1.pdf) auch per Post an
+Werden Sie Mitglied im Schwimmverein Haren e.V. und seien Sie willkommen in einem der größten Schwimmvereine des Emslandes. Sie müssen dazu nur das Anmeldeformular ausfüllen und beim Trainer oder Vorstand abgeben. Sie können das [Anmeldeformular](/downloads/anmeldeformular6.0.pdf) auch per Post an
 
 SV Haren e. V.<br>
 z. H. Friedhelm Schröer<br>
