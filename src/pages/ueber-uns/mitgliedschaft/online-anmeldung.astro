@@ -1,0 +1,137 @@
+---
+import Heading1 from "../../../components/Base/heading1.astro"
+import Layout from "../../../layouts/Layout.astro"
+---
+
+<Layout title="Online Anmeldung" breadcrumb={[{ title: "Über uns", href: "/ueber-uns/" }, { title: "Mitgliedschaft", href: "/ueber-uns/mitgliedschaft" }, { title: "Online Anmeldung" }]}>
+  <div class="max-w-screen-lg mx-auto">
+    <div
+      id="form-success"
+      class="hidden flex mb-6 p-4 text-sm text-gray-700 bg-gray-100 rounded-lg"
+      role="alert"
+    >
+      <svg
+        aria-hidden="true"
+        class="flex-shrink-0 inline w-5 h-5 mr-3"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+        ><path
+          fill-rule="evenodd"
+          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+          clip-rule="evenodd"></path>
+      </svg>
+      <span class="sr-only">Kontaktformular erfolgreich</span>
+      <div>
+        <span class="font-medium">Kontaktformular erfolgreich abgeschickt!</span
+        >
+      </div>
+    </div>
+
+    <Heading1 class="col-span-2 mb-6">Online Anmeldung</Heading1>
+
+    <form
+      name="Kontakt"
+      method="POST"
+      action="/kontakt/?formSuccess"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <label class="hidden">
+        Fülle dieses Feld nicht aus, wenn du ein Mensch bist: <input
+          name="bot-field"
+        />
+      </label>
+      <div class="mb-6">
+        <label for="name" class="block mb-2 text-sm font-medium text-gray-900"
+          >Name</label
+        >
+        <input
+          type="text"
+          id="name"
+          name="Name"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          placeholder="Max Mustermann"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label
+          for="subject"
+          class="block mb-2 text-sm font-medium text-gray-900">Betreff</label
+        >
+        <input
+          type="text"
+          id="subject"
+          name="Betreff"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          placeholder="Betreff des Kontaktes"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900"
+          >E-Mail-Adresse</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="E-Mail"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+          placeholder="max.mustermann@gmx.de"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label
+          for="message"
+          class="block mb-2 text-sm font-medium text-gray-900">Nachricht</label
+        >
+        <textarea
+          id="message"
+          name="Nachricht"
+          rows="4"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+          placeholder="Schreibe hier den Grund deines Kontaktes rein..."
+        ></textarea>
+      </div>
+      <div class="flex items-start mb-6">
+        <div class="flex items-center h-5">
+          <input
+            id="remember"
+            type="checkbox"
+            value=""
+            class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+            required
+          />
+        </div>
+        <label for="remember" class="ml-2 text-sm font-medium text-gray-900"
+          >Ich habe die <a
+            href="/datenschutzerklärung/"
+            target="_blank"
+            class="text-blue-600 hover:underline">Datenschutzerklärung</a
+          > des Schwimmvereins Haren e.V. gelesen und stimme der Weiterverarbeitung
+          meiner Daten für die Kontaktaufnahme zu.</label
+        >
+      </div>
+      <button
+        type="submit"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center"
+        >Abschicken</button
+      >
+    </form>
+  </div>
+</Layout>
+
+<script is:inline>
+  const url = new URL(window.location.href)
+  if (url.searchParams.has("formSuccess")) {
+    const formSuccess = document.getElementById("form-success")
+    formSuccess.classList.remove("hidden")
+    setTimeout(() => {
+      const dismiss = new Dismiss(formSuccess)
+      dismiss.hide()
+      window.history.pushState({}, document.title, url.pathname)
+    }, 2000)
+  }
+</script>
